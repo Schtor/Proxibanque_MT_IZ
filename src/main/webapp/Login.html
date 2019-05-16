@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login</title>
+<script type="text/javascript" src="alerte.js"></script>
+</head>
+<body>
+	<img src="logo.png" />
+	<p />
+	<center>
+		<h3>Bienvenue, veuillez vous connecter pour accéder à votre
+			portail</h3>
+	</center>
+	<p />
+	<center>
+		<form method="post" onSubmit="alerte()" action="ServletConnexion">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Login : <input type="text" id="login"
+				name="login" placeholder="Saisissez votre login">
+			<p />
+			Password : <input type="password" id="password" name="password"
+				placeholder="Saisissez votre Password">
+			<p />
+			<center>
+				<p />
+				<span class="bouton-générer"> <input type="submit"
+					value="Connect">
+				</span>
+			</center>
+		</form>
+	</center>
+</body>
+</html>
