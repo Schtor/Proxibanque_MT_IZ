@@ -33,7 +33,22 @@ public interface wservice {
 	Response supprimerClient(@PathParam("id") String idClient);
 
 	@PUT
-	@Path("/clients/")
-	Response modifierClient(Client updatedclient);
+	@Path("/clients/{id}")
+	Response modifierNomClient(@PathParam("id") String id, String nom);
+	
+	@PUT
+	@Path("/clients/{id}")
+	Response modifierTelephoneClient(@PathParam("id") String id, String telephone);
+	
+	@PUT
+	@Path("/clients/{id}")
+	Response modifierVilleClient(@PathParam("id") String id, String ville);
+	
+	@PUT
+	@Path("/clients/{id}")
+	Response modifierCodePostalClient(@PathParam("id") String id, String codepostal);
 
+	@PUT
+	@Path("/clients/{id}")
+	Response modifierAdresseClient(@PathParam("id") String id, String adresse);
 }

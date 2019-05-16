@@ -5,57 +5,123 @@ import java.util.List;
 import javax.ws.rs.core.Response;
 
 import org.banque.entity.Client;
-import org.banque.service.BanqueService;
-import org.banque.service.BanqueServiceImpl;
+import org.banque.persistence.DAOScenario;
+import org.banque.service.ClientService;
+import org.banque.service.ClientServiceImplementation;
+
 
 public class wserviceImp implements wservice {
 
-	private BanqueService bs = new BanqueServiceImpl();
-
+	private ClientService cs = new ClientServiceImplementation();
+	DAOScenario dao = new DAOScenario();
+	
 	public wserviceImp() {
-		// TODO Auto-generated constructor stub
+		dao.scenario();
 	}
 
 	@Override
 	public Client afficherClient(String id) {
 		Long longId = Long.valueOf(id);
-		// logg
-		// System.out.println("get client" + longId);
-		Client client = bs.chercherClient(longId);
+		Client client = cs.trouverClient(longId);
 		return client;
 	}
 
 	@Override
 	public Response creerClient(Client client) {
-		bs.creerClient(client);
+		cs.ajouterClient(client);
 		return Response.ok(client).build();
 	}
 
 	@Override
 	public List<Client> afficherListClients() {
 
-		List<Client> liste = bs.afficherListe();
+		List<Client> liste = cs.trouverToutClient();
 		return liste;
 	}
 
 	@Override
 	public Response supprimerClient(String idClient) {
 		Long longId = Long.valueOf(idClient);
-		bs.supprimerClient(longId);
-		return Response.ok().build();
-	}
-
-	@Override
-	public Response modifierClient(Client updatedclient) {
+		Client c = cs.trouverClient(longId);
 		Response response = null;
-		Client client = bs.chercherClient(updatedclient.getIdClient());
-		if (client != null) {
-			bs.modifierClient(updatedclient.getIdClient(), updatedclient.getNom());;
+		if (c!=null) {
+			cs.supprimerClient(c);;
 			response = Response.ok().build();
 		} else {
 			response = Response.notModified().build();
 		}
+		return response;
+	}
 
+	@Override
+	public Response modifierNomClient(String id, String nom) {
+		Long longId = Long.valueOf(id);
+		Client c=cs.trouverClient(longId);
+		Response response = null;
+		if (c!= null) {
+			cs.modifierNomClient(c.getId(), nom);
+			response = Response.ok().build();
+		} else {
+			response = Response.notModified().build();
+		}
+		return response;
+	}
+
+	@Override
+	public Response modifierTelephoneClient(String id, String telephone) {
+		Long longId = Long.valueOf(id);
+		Client c=cs.trouverClient(longId);
+		Response response = null;
+		if (c!= null) {
+			cs.modifierTelephoneClient(c.getId(), telephone);
+			response = Response.ok().build();
+		} else {
+			response = Response.notModified().build();
+		}
+		return response;
+	
+	}
+
+	@Override
+	public Response modifierVilleClient(String id, String ville) {
+		Long longId = Long.valueOf(id);
+		Client c=cs.trouverClient(longId);
+		Response response = null;
+		if (c!= null) {
+			cs.modifierVilleClient(c.getId(), ville);
+			response = Response.ok().build();
+		} else {
+			response = Response.notModified().build();
+		}
+		return response;
+	}
+
+	@Override
+	public Response modifierCodePostalClient(String id, String codepostal) {
+		Long longId = Long.valueOf(id);
+		Long longcp = Long.valueOf(codepostal);
+		Client c=cs.trouverClient(longId);
+		Response response = null;
+		if (c!= null) {
+			cs.modifierCodePostalClient(c.getId(), longcp);
+			response = Response.ok().build();
+		} else {
+			response = Response.notModified().build();
+		}
+		return response;
+	}
+
+	@Override
+	public Response modifierAdresseClient(String id, String adresse) {
+		Long longId = Long.valueOf(id);
+		Client c=cs.trouverClient(longId);
+		Response response = null;
+		if (c!= null) {
+			cs.modifierAdresseClient(c.getId(), adresse);
+			response = Response.ok().build();
+		} else {
+			response = Response.notModified().build();
+		}
 		return response;
 	}
 
