@@ -29,6 +29,9 @@ public class CompteCourant extends Compte {
 		super(solde, numeroCompte, dateOuverture, c);
 	}
 
+	public CompteCourant(int solde, Long numeroCompte, String dateOuverture) {
+		super(solde, numeroCompte, dateOuverture);
+	}
 	
 	public CompteCourant() {
 		super();

@@ -49,7 +49,13 @@ public class Compte {
 		this.dateOuverture = dateOuverture;
 		this.client = c;
 	}
-
+	
+	public Compte(int solde, Long numeroCompte, String dateOuverture) {
+		this.solde = solde;
+		this.numeroCompte = numeroCompte;
+		this.dateOuverture = dateOuverture;
+	}
+	
 	public Compte() {
 		super();
 	}

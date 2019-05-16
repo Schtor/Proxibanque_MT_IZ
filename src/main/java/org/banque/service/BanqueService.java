@@ -1,6 +1,5 @@
 package org.banque.service;
 
-import org.banque.entity.Client;
 import org.banque.entity.Compte;
 /**
  * Interface Banqueservice est composée des règles métiers pour la Banque, 
@@ -22,6 +21,6 @@ public interface BanqueService {
 	 * 
 	 * @param Client client1, Client client2, Compte compte1, Compte compte2, Long somme
 	 */
-	public boolean faireVirement(Client client1, Client client2, Compte compte1, Compte compte2, Long somme);
+	public boolean faireVirement(Compte compte1, Compte compte2, Long somme);
 	
 }

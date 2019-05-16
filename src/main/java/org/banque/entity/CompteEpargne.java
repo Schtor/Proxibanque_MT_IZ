@@ -27,6 +27,10 @@ public class CompteEpargne extends Compte {
 		super(solde, numeroCompte, dateOuverture, c);
 
 	}
+	
+	public CompteEpargne(int solde, Long numeroCompte, String dateOuverture) {
+		super(solde, numeroCompte, dateOuverture);
+	}
 
 	public CompteEpargne() {
 		super();

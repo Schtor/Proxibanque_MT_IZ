@@ -1,20 +1,23 @@
 package org.banque.service;
 
-import org.banque.entity.Client;
 import org.banque.entity.Compte;
+import org.banque.persistence.DAOCompte;
+/**
+ * Classe ClientServiceImplementation qui implémente l'interface ClientService.
+ * Elle est joue le rôled'intermédiaire entre l'utilisateur et la base de
+ * données des clients.
+ * 
+ * @author Marwa & Ihab
+ *
+ */
+public class CompteServiceImplementation implements CompteService {
 
-public class CompteServiceImplementation implements BanqueService {
+		DAOCompte dao = new DAOCompte();
+		Compte c = null;
 
-	@Override
-	public boolean auditer() {
-		// TODO Auto-generated method stub
-		return false;
-	}
-
-	@Override
-	public boolean faireVirement(Client client1, Client client2, Compte compte1, Compte compte2, Long somme) {
-		// TODO Auto-generated method stub
-		return false;
-	}
+		@Override
+		public Compte trouverCompte(Long numerocompte) {
+			return dao.afficherCompteParNumero(numerocompte);
+		}
 
 }

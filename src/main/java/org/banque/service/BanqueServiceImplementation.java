@@ -4,8 +4,13 @@ import java.util.List;
 
 import org.banque.entity.Client;
 import org.banque.entity.Compte;
+import org.banque.entity.CompteCourant;
+import org.banque.entity.CompteEpargne;
 import org.banque.entity.Entreprise;
 import org.banque.entity.Particulier;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 /**
  * Classe BanqueServiceImplementation qui implémente l'interface BanqueService.
  * Elle est composée des règles métiers pour la banque dont l'utilisateur 
@@ -16,7 +21,9 @@ import org.banque.entity.Particulier;
  */
 public class BanqueServiceImplementation implements BanqueService {
 
+	private static final Logger LOGGER = LoggerFactory.getLogger(BanqueServiceImplementation.class);
 	ClientService cs = new ClientServiceImplementation();
+	CompteService cos = new CompteServiceImplementation();
 
 	/**
 	 * Méthode d'audit.
@@ -68,10 +75,28 @@ public class BanqueServiceImplementation implements BanqueService {
 	 * @param Client client1, Client client2, Compte compte1, Compte compte2, Long somme
 	 */
 	@Override
-	public boolean faireVirement(Client client1, Client client2, Compte compte1, Compte compte2, Long somme) {
+	public boolean faireVirement(Compte compte1, Compte compte2, Long somme) {
 		boolean okVirement = true;
-		compte1 = client1.getCompteco();
+		Compte comptedeb = cos.trouverCompte(compte1.getNumeroCompte());
+		Compte comptecred = cos.trouverCompte(compte2.getNumeroCompte());
+		if (comptedeb instanceof CompteCourant) {
+			
+			System.out.println("je suis le premier if");
+			if ((comptedeb.getSolde()-somme) < (-1000)) {
+				LOGGER.info("solde inférieur à -1000");
+				okVirement=false;
+				} else {
+				LOGGER.info("virement effectué");
+				comptedeb.setSolde(comptedeb.getSolde()-somme);
+				comptecred.setSolde(comptecred.getSolde()+somme);
+			 } 	
+		if (comptedeb instanceof CompteEpargne) {
+			LOGGER.info("virement effectué");
+			comptedeb.setSolde(comptedeb.getSolde()-somme);
+			comptecred.setSolde(comptecred.getSolde()+somme);
+		}
+		}
 		return okVirement;
+		}
 	}
 
-}
