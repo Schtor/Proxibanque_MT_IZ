@@ -15,7 +15,7 @@ import javax.xml.bind.annotation.XmlTransient;
  * type de carte et un attribut client. C'est une entité qui donnera une table dans la base de donnée. Sa PK 
  * correspond au numero de carte, et elle est un attribut de l'entité Client, prenant donc une FK client_id.
  * 
- * @author Jean-Charles & Ihab
+ * @author Marwa & Ihab
  *
  */
 @Entity

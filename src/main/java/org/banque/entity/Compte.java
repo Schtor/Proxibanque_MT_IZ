@@ -21,7 +21,7 @@ import javax.xml.bind.annotation.XmlTransient;
  * de l'entité Client, prenant donc une FK client_id. C'est la classe mère de 
  * CompteCourant et CompteEpargne, qui apparaitront donc dans la table Compte dans la base de données.
  * 
- * @author Jean-Charles & Ihab
+ * @author Marwa & Ihab
  *
  */
 @XmlRootElement(name = "compte")

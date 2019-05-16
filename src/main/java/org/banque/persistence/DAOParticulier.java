@@ -58,7 +58,7 @@ public class DAOParticulier {
 	/**
 	 * Méthode retournant un Particulier de table clients à partir de son id.
 	 * 
-	 * @param int id
+	 * @param Long id
 	 */
 
 	public Particulier afficherClientParId(Long id) {
@@ -117,7 +117,7 @@ public class DAOParticulier {
 	 * Méthode permettant de modifier l'adresse d'un Particulier dans la table
 	 * clients à partir de son id.
 	 * 
-	 * @param int id, String adresse
+	 * @param Long id, String adresse
 	 */
 	public void modifierAdresseClientParId(Long id, String adresse) {
 		EntityManager em = emf.createEntityManager();
@@ -146,7 +146,7 @@ public class DAOParticulier {
 	 * Méthode permettant de modifier le code postal d'un Particulier dans la table
 	 * clients à partir de son id.
 	 * 
-	 * @param int id, int codePostal
+	 * @param Long id, int codePostal
 	 */
 	public void modifierCodePostalClientParId(Long id, Long codePostal) {
 		EntityManager em = emf.createEntityManager();
@@ -175,7 +175,7 @@ public class DAOParticulier {
 	 * Méthode permettant de modifier la ville d'un Particulier dans la table
 	 * clients à partir de son id.
 	 * 
-	 * @param int id, String ville
+	 * @param Long id, String ville
 	 */
 
 	public void modifierVilleClientParId(Long id, String ville) {
@@ -205,7 +205,7 @@ public class DAOParticulier {
 	 * Méthode permettant de modifier le téléphone d'un Particulier dans la table
 	 * clients à partir de son id.
 	 * 
-	 * @param int id, String telephone
+	 * @param Long id, String telephone
 	 */
 
 	public void modifierTelephoneClientParId(Long id, String telephone) {
@@ -235,7 +235,7 @@ public class DAOParticulier {
 	 * Méthode permettant de modifier le prénom d'un Particulier dans la table
 	 * clients à partir de son id.
 	 * 
-	 * @param int id, String telephone
+	 * @param Long id, String telephone
 	 */
 
 	public void modifierPrenomClientParId(Long id, String prenom) {
@@ -264,7 +264,7 @@ public class DAOParticulier {
 	 * Méthode permettant de modifier le nom d'un Particulier dans la table clients
 	 * à partir de son id.
 	 * 
-	 * @param int id, String telephone
+	 * @param Long id, String telephone
 	 */
 
 	public void modifierNomClientParId(Long id, String nom) {
@@ -294,7 +294,7 @@ public class DAOParticulier {
 	 * Méthode permettant de supprimer un Particulier dans la table clients à partir
 	 * de son id.
 	 * 
-	 * @param int id
+	 * @param Long id
 	 */
 
 	public void supprimerClientParId(Long id) {

@@ -9,7 +9,7 @@ import org.banque.entity.Client;
  * joue le rôle d'intermédiaire entre l'utilisateur et la base de données des
  * clients.
  * 
- * @author Jean-Charles & Ihab
+ * @author Marwa & Ihab
  *
  */
 public interface ClientService {
@@ -24,7 +24,7 @@ public interface ClientService {
 	/**
 	 * Méthode appelant la demande d'un client dans la base de données clients.
 	 * 
-	 * @param int id
+	 * @param Long id
 	 */
 	public Client trouverClient(Long id);
 
@@ -39,7 +39,7 @@ public interface ClientService {
 	 * Méthode appelant la modification de l'adresse d'un client dans la base de
 	 * données clients.
 	 * 
-	 * @param int id, String adresse
+	 * @param Long id, String adresse
 	 */
 	public void modifierAdresseClient(Long id, String adresse);
 
@@ -47,7 +47,7 @@ public interface ClientService {
 	 * Méthode appelant la modification du code postal d'un client dans la base de
 	 * données clients.
 	 * 
-	 * @param int id, int codePostal
+	 * @param Long id, Long codePostal
 	 */
 	public void modifierCodePostalClient(Long id, Long codePostal);
 
@@ -55,7 +55,7 @@ public interface ClientService {
 	 * Méthode appelant la modification de la ville d'un client dans la base de
 	 * données clients.
 	 * 
-	 * @param int id, String ville
+	 * @param Long id, String ville
 	 */
 	public void modifierVilleClient(Long id, String ville);
 
@@ -63,7 +63,7 @@ public interface ClientService {
 	 * Méthode appelant la modification du numéro de téléphone d'un client dans la
 	 * base de données clients.
 	 * 
-	 * @param int id, String telephone
+	 * @param Long id, String telephone
 	 */
 	public void modifierTelephoneClient(Long id, String telephone);
 	
@@ -71,7 +71,7 @@ public interface ClientService {
 	 * Méthode appelant la modification du nom d'un client dans la
 	 * base de données clients.
 	 * 
-	 * @param int id, String telephone
+	 * @param Long id, String telephone
 	 */
 	public void modifierNomClient(Long id, String nom);
 	

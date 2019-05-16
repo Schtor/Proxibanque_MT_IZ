@@ -57,7 +57,7 @@ public class DAOEntreprise {
 	/**
 	 * Méthode retournant une Entreprise de la table client à partir de son id.
 	 * 
-	 * @param int id
+	 * @param Long id
 	 */
 
 	public Entreprise afficherClientParId(Long id) {
@@ -115,7 +115,7 @@ public class DAOEntreprise {
 	 * Méthode permettant de modifier l'adresse d'une Entreprise dans la table
 	 * clients à partir de son id.
 	 * 
-	 * @param int id, String adresse
+	 * @param Long id, String adresse
 	 */
 	public void modifierAdresseClientParId(Long id, String adresse) {
 		EntityManager em = emf.createEntityManager();
@@ -144,7 +144,7 @@ public class DAOEntreprise {
 	 * Méthode permettant de modifier le code postal d'une Entreprise dans la table
 	 * clients à partir de son id.
 	 * 
-	 * @param int id, int codePostal
+	 * @param Long id, int codePostal
 	 */
 	public void modifierCodePostalClientParId(Long id, Long codePostal) {
 
@@ -174,7 +174,7 @@ public class DAOEntreprise {
 	 * Méthode permettant de modifier la ville d'une Entreprise dans la table
 	 * clients à partir de son id.
 	 * 
-	 * @param int id, String ville
+	 * @param Long id, String ville
 	 */
 
 	public void modifierVilleClientParId(Long id, String ville) {
@@ -204,7 +204,7 @@ public class DAOEntreprise {
 	 * Méthode permettant de modifier le téléphone d'une Entreprise dans la table
 	 * clients à partir de son id.
 	 * 
-	 * @param int id, String telephone
+	 * @param Long id, String telephone
 	 */
 
 	public void modifierTelephoneClientParId(Long id, String telephone) {
@@ -234,7 +234,7 @@ public class DAOEntreprise {
 	 * Méthode permettant de modifier le prénom d'une Entreprise dans la table
 	 * clients à partir de son id.
 	 * 
-	 * @param int id, String telephone
+	 * @param Long id, String telephone
 	 */
 
 	public void modifierSiretClientParId(Long id, Long siret) {
@@ -264,7 +264,7 @@ public class DAOEntreprise {
 	 * Méthode permettant de modifier le nom d'une Entreprise dans la table clients
 	 * à partir de son id.
 	 * 
-	 * @param int id, String telephone
+	 * @param Long id, String telephone
 	 */
 
 	public void modifierNomClientParId(Long id, String nom) {
@@ -294,7 +294,7 @@ public class DAOEntreprise {
 	 * Méthode permettant de supprimer une Entreprise dans la table clients à partir
 	 * de son id.
 	 * 
-	 * @param int id
+	 * @param Long id
 	 */
 
 	public void supprimerClientParId(Long id) {

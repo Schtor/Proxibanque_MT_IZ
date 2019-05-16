@@ -11,7 +11,7 @@ import javax.xml.bind.annotation.XmlRootElement;
  * Client. C'est une entité qui apparait directement dans la table Compte dans
  * la base de données.
  * 
- * @author Jean-Charles & Ihab
+ * @author Marwa & Ihab
  *
  */
 
