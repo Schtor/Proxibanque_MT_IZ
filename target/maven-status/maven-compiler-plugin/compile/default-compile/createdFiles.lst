@@ -1,0 +1,8 @@
+org\banque\service\BanqueService.class
+ws\rest\wservice.class
+org\banque\persistence\BanqueDAO.class
+ws\rest\wserviceImp.class
+org\banque\entity\Client.class
+org\banque\service\BanqueServiceImpl.class
+org\banque\persistence\BanqueDAOImpl.class
+org\banque\entity\Main.class
