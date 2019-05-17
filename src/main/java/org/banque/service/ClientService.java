@@ -19,7 +19,7 @@ public interface ClientService {
 	 * 
 	 * @param Client c
 	 */
-	public void ajouterClient(Client c);
+	public boolean ajouterClient(Client c);
 
 	/**
 	 * Méthode appelant la demande d'un client dans la base de données clients.
@@ -66,21 +66,20 @@ public interface ClientService {
 	 * @param Long id, String telephone
 	 */
 	public void modifierTelephoneClient(Long id, String telephone);
-	
+
 	/**
-	 * Méthode appelant la modification du nom d'un client dans la
-	 * base de données clients.
+	 * Méthode appelant la modification du nom d'un client dans la base de données
+	 * clients.
 	 * 
 	 * @param Long id, String telephone
 	 */
 	public void modifierNomClient(Long id, String nom);
-	
+
 	/**
 	 * Méthode appelant la suppression d'un client dans la base de données clients.
 	 * 
 	 * @param Client c
 	 */
 	public void supprimerClient(Client c);
-
 
 }

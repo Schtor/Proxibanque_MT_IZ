@@ -25,7 +25,7 @@ public class DAOParticulier implements DAOPar {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(DAOParticulier.class);
 	EntityManagerFactory emf = Persistence.createEntityManagerFactory("pu");
-	Particulier p = new Particulier();
+	Client p = new Client();
 	List<Particulier> l = new ArrayList<Particulier>();
 	Set<Particulier> s = new HashSet<Particulier>();
 
@@ -35,14 +35,15 @@ public class DAOParticulier implements DAOPar {
 	 * @param Client
 	 */
 	@Override
-	public void sauvegarderClient(Client p) {
-
+	public int sauvegarderClient(Client p) {
+		int i = 0;
 		EntityManager em = emf.createEntityManager();
 		EntityTransaction txn = em.getTransaction();
 		try {
 			txn.begin();
 			em.persist(p);
 			LOGGER.info("client sauvegardé dans la BD");
+			i = 1;
 			txn.commit();
 
 		} catch (Exception e) {
@@ -57,7 +58,7 @@ public class DAOParticulier implements DAOPar {
 			}
 
 		}
-
+		return i;
 	}
 
 	/**
@@ -67,7 +68,7 @@ public class DAOParticulier implements DAOPar {
 	 */
 
 	@Override
-	public Particulier afficherClientParId(Long id) {
+	public Client afficherClientParId(Long id) {
 
 		EntityManager em = emf.createEntityManager();
 		EntityTransaction txn = em.getTransaction();

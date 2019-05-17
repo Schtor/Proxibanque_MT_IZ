@@ -11,8 +11,8 @@ import org.slf4j.LoggerFactory;
 
 /**
  * Cette classe contient les méthodes permettent de créer et sauvegarder des
- * objets Compte dans la base de données, et également d'y accéder pour,
- * lire, modifier, supprimer et récupérer des informations ou des objets.
+ * objets Compte dans la base de données, et également d'y accéder pour, lire,
+ * modifier, supprimer et récupérer des informations ou des objets.
  */
 public class DAOCompte implements DAOCo {
 
@@ -21,7 +21,8 @@ public class DAOCompte implements DAOCo {
 	Compte c = new Compte();
 
 	/**
-	 * Méthode retournant un Compte de la base de données à partir du numéro du compte.
+	 * Méthode retournant un Compte de la base de données à partir du numéro du
+	 * compte.
 	 * 
 	 * @param Long numerocompte
 	 */
@@ -50,4 +51,3 @@ public class DAOCompte implements DAOCo {
 		return c;
 	}
 }
-

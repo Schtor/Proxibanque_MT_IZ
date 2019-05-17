@@ -1,3 +1,4 @@
+package org.banque.test;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -17,10 +18,9 @@ import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
-
 /**
- * Classe ClientServiceImplementationTest qui conetient l'ensemble des 
- * méthodes de test pour tester les méthodes contenues dans la classe
+ * Classe ClientServiceImplementationTest qui conetient l'ensemble des méthodes
+ * de test pour tester les méthodes contenues dans la classe
  * ClasseServiceImplementation.
  * 
  * @author Marwa & Ihab
@@ -31,19 +31,18 @@ public class ClientServiceImplementationTest {
 	private static final long ID = 1L;
 	private Particulier p;
 	private Entreprise e;
-	
+
 	@Mock
 	DAOEntreprise daoe;
-	
+
 	@Mock
 	DAOParticulier daop;
-	
+
 	private ClientServiceImplementation csi;
-	
-	
+
 	/**
-	 * Méthode permettant de paramétrer les conditions dans lesquelles chaque
-	 * test va être effectué.
+	 * Méthode permettant de paramétrer les conditions dans lesquelles chaque test
+	 * va être effectué au sein de la classe ClientServiceImplementationTest.
 	 */
 	@BeforeEach
 	public void setup() {
@@ -52,10 +51,10 @@ public class ClientServiceImplementationTest {
 		csi.setDAOEntreprise(daoe);
 		csi.setDAOParticulier(daop);
 	}
-	
+
 	/**
-	 * Méthode permettant de tester si la recherche d'un client particulier
-	 * retourne bien un client particulier.
+	 * Méthode permettant de tester si la recherche d'un client particulier retourne
+	 * bien un client particulier.
 	 * 
 	 */
 	@Test
@@ -66,11 +65,11 @@ public class ClientServiceImplementationTest {
 		verify(daop).afficherClientParId(ID);
 		assertTrue(result);
 	}
-	
+
 	/**
-	 * Méthode permettant de tester si la recherche d'un client entreprise
-	 * retourne bien un client entreprise.	 
-	 *  
+	 * Méthode permettant de tester si la recherche d'un client entreprise retourne
+	 * bien un client entreprise.
+	 * 
 	 */
 	@Test
 	public void trouverClient_Should_Find_A_Client_If_Entreprise() {
@@ -80,10 +79,10 @@ public class ClientServiceImplementationTest {
 		verify(daoe).afficherClientParId(ID);
 		assertTrue(result);
 	}
-	
+
 	/**
-	 * Méthode permettant de tester si la recherche d'un client particulier
-	 * ne retourne pas de client lorsque le client trouvé est un entreprise.
+	 * Méthode permettant de tester si la recherche d'un client particulier ne
+	 * retourne pas de client lorsque le client trouvé est un entreprise.
 	 * 
 	 */
 	@Test
@@ -95,10 +94,10 @@ public class ClientServiceImplementationTest {
 		verify(daop).afficherClientParId(ID);
 		assertFalse(result);
 	}
-	
+
 	/**
-	 * Méthode permettant de tester si la recherche d'un client entreprise
-	 * ne retourne pas de client lorsque le client trouvé est un particulier.
+	 * Méthode permettant de tester si la recherche d'un client entreprise ne
+	 * retourne pas de client lorsque le client trouvé est un particulier.
 	 * 
 	 */
 	@Test
@@ -110,10 +109,10 @@ public class ClientServiceImplementationTest {
 		verify(daoe).afficherClientParId(ID);
 		assertFalse(result);
 	}
-	
+
 	/**
-	 * Méthode permettant de tester si la recherche de la liste de Client
-	 * retourne bien une liste de Clients.
+	 * Méthode permettant de tester si la recherche de la liste de Client retourne
+	 * bien une liste de Clients.
 	 * 
 	 */
 	@Test
@@ -128,6 +127,15 @@ public class ClientServiceImplementationTest {
 		verify(daop).afficherTout();
 		assertTrue(result);
 	}
-	
+
+	@Test
+	public void ajouterClient_Should_Add_Client() {
+		p = new Particulier();
+		when(daop.sauvegarderClient(p)).thenReturn(1);
+		boolean response = csi.ajouterClient(p);
+		verify(daop).sauvegarderClient(p);
+		assertTrue(response);
+
+	}
 
 }

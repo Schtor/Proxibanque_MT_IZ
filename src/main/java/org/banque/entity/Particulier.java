@@ -21,14 +21,11 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Particulier extends Client {
 
-//	Attribut
-	private String prenom;
-
 //	Constructeur
 
 	public Particulier(String nom, String prenom, String adresse, Long codePostal, String ville, String telephone) {
 		super(nom, adresse, codePostal, ville, telephone);
-		this.prenom = prenom;
+
 	}
 
 	public Particulier() {
@@ -36,13 +33,6 @@ public class Particulier extends Client {
 	}
 
 	// Getter et setter
-	public String getPrenom() {
-		return prenom;
-	}
-
-	public void setPrenom(String prenom) {
-		this.prenom = prenom;
-	}
 
 	@Override
 	public Long getId() {
@@ -155,7 +145,7 @@ public class Particulier extends Client {
 	// TOSTRING
 	@Override
 	public String toString() {
-		return "Particulier [prenom=" + prenom + ", toString()=" + super.toString() + "]";
+		return "Particulier [ toString()=" + super.toString() + "]";
 	}
 
 }

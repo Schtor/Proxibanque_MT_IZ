@@ -34,14 +34,18 @@ public class ClientServiceImplementation implements ClientService {
 	 * 
 	 * @param Client c
 	 */
-	public void ajouterClient(Client c) {
+	public boolean ajouterClient(Client c) {
+		boolean response = false;
 		if (c instanceof Particulier) {
 			daop.sauvegarderClient(c);
 			LOGGER.info("appel à la BD pour : client particulier ajouté");
+			response = true;
 		} else {
 			daoe.sauvegarderClient(c);
 			LOGGER.info("appel à la BD pour : client entreprise ajouté");
+			response = true;
 		}
+		return response;
 	}
 
 	/**
@@ -56,7 +60,7 @@ public class ClientServiceImplementation implements ClientService {
 			c = daoe.afficherClientParId(id);
 			LOGGER.info("appel à la BD pour : client entreprise affiché");
 		}
-		
+
 		return c;
 	}
 
@@ -88,7 +92,7 @@ public class ClientServiceImplementation implements ClientService {
 	 * @param Long id, String adresse
 	 */
 	public void modifierAdresseClient(Long id, String adresse) {
-		if (daop.afficherClientParId(id)!=null) {
+		if (daop.afficherClientParId(id) != null) {
 			daop.modifierAdresseClientParId(id, adresse);
 			LOGGER.info("appel à la BD pour : adresse client particulier modifiée");
 		} else {
@@ -128,7 +132,7 @@ public class ClientServiceImplementation implements ClientService {
 	 * @param Long id, Long codePostal
 	 */
 	public void modifierCodePostalClient(Long id, Long codePostal) {
-		if (daop.afficherClientParId(id)!=null) {
+		if (daop.afficherClientParId(id) != null) {
 			daop.modifierCodePostalClientParId(id, codePostal);
 			LOGGER.info("appel à la BD pour : code postal client particulier modifié");
 		} else {
@@ -144,7 +148,7 @@ public class ClientServiceImplementation implements ClientService {
 	 * @param Long id, String ville
 	 */
 	public void modifierVilleClient(Long id, String ville) {
-		if (daop.afficherClientParId(id)!=null) {
+		if (daop.afficherClientParId(id) != null) {
 			daop.modifierVilleClientParId(id, ville);
 			LOGGER.info("appel à la BD pour : ville client particulier modifiée");
 		} else {
@@ -160,7 +164,7 @@ public class ClientServiceImplementation implements ClientService {
 	 * @param Long id, String telephone
 	 */
 	public void modifierTelephoneClient(Long id, String telephone) {
-		if (daop.afficherClientParId(id)!=null) {
+		if (daop.afficherClientParId(id) != null) {
 			daop.modifierTelephoneClientParId(id, telephone);
 			LOGGER.info("appel à la BD pour : telephone client particulier modifié");
 		} else {
@@ -177,7 +181,7 @@ public class ClientServiceImplementation implements ClientService {
 	 * @param Long id, String telephone
 	 */
 	public void modifierNomClient(Long id, String nom) {
-		if (daop.afficherClientParId(id)!=null) {
+		if (daop.afficherClientParId(id) != null) {
 			daop.modifierNomClientParId(id, nom);
 			LOGGER.info("appel à la BD pour : nom client particulier modifié");
 		} else {
@@ -188,8 +192,7 @@ public class ClientServiceImplementation implements ClientService {
 	}
 
 	/**
-	 * Méthode appelant la suppression d'un client dans la
-	 * base de données clients.
+	 * Méthode appelant la suppression d'un client dans la base de données clients.
 	 * 
 	 * @param Long id, String telephone
 	 */
@@ -203,11 +206,13 @@ public class ClientServiceImplementation implements ClientService {
 			LOGGER.info("appel à la BD pour supprimer client entreprise");
 		}
 	}
+
 	public void setDAOParticulier(DAOPar daop) {
-		this.daop=daop;
+		this.daop = daop;
 	}
+
 	public void setDAOEntreprise(DAOEnt daoe) {
-		this.daoe=daoe;
+		this.daoe = daoe;
 	}
 
 }

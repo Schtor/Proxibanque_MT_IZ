@@ -1,14 +1,13 @@
 package org.banque.entity;
 
-
 import javax.persistence.Entity;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlRootElement;
 
 /**
- * Classe CompteEpargne caractérisée par un taux de rémunération et qui
- * hérite de la classe Compte. C'est une entité qui apparait directement dans la table 
+ * Classe CompteEpargne caractérisée par un taux de rémunération et qui hérite
+ * de la classe Compte. C'est une entité qui apparait directement dans la table
  * Compte dans la base de données.
  * 
  * @author Marwa & Ihab
@@ -27,7 +26,7 @@ public class CompteEpargne extends Compte {
 		super(solde, numeroCompte, dateOuverture, c);
 
 	}
-	
+
 	public CompteEpargne(int solde, Long numeroCompte, String dateOuverture) {
 		super(solde, numeroCompte, dateOuverture);
 	}
@@ -36,7 +35,7 @@ public class CompteEpargne extends Compte {
 		super();
 	}
 
-	//	Getter et setter
+	// Getter et setter
 	public int getTAUXREMUNERATION() {
 		return tauxRemuneration;
 	}
@@ -50,13 +49,12 @@ public class CompteEpargne extends Compte {
 		return "numéro de compte : " + getNumeroCompte() + ", épargne : " + getSolde() + "€" + ", date d'ouverture : "
 				+ getDateOuverture();
 	}
-	
+
 	@Override
 	public Client getClient() {
 		return super.getClient();
 	}
-	
-	
+
 	@Override
 	public void setClient(Client client) {
 		super.setClient(client);

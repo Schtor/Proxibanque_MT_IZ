@@ -100,11 +100,19 @@ public class BanqueServiceImplementation implements BanqueService {
 		return okVirement;
 	}
 
+	public DAOCo getDAOCompte() {
+		return this.daoco;
+	}
+
+	public void setDAOCompte(DAOCompte daoco) {
+		this.daoco = daoco;
+	}
+
 	public ClientService getClientService() {
 		return this.cs;
 	}
 
-	public void setClientService(ClientService cs) {
+	public void getClientService(ClientService cs) {
 		this.cs = cs;
 	}
 

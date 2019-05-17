@@ -5,6 +5,7 @@ import org.banque.persistence.DAOCo;
 import org.banque.persistence.DAOCompte;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
 /**
  * Classe ClientServiceImplementation qui implémente l'interface ClientService.
  * Elle est joue le rôled'intermédiaire entre l'utilisateur et la base de
@@ -15,18 +16,18 @@ import org.slf4j.LoggerFactory;
  */
 public class CompteServiceImplementation implements CompteService {
 
-		private static final Logger LOGGER = LoggerFactory.getLogger(CompteServiceImplementation.class);
-		DAOCo dao = new DAOCompte();
-		Compte c = null;
+	private static final Logger LOGGER = LoggerFactory.getLogger(CompteServiceImplementation.class);
+	DAOCo dao = new DAOCompte();
+	Compte c = null;
 
-		@Override
-		public Compte trouverCompte(Long numerocompte) {
-			LOGGER.info("appel à la BD pour : trouver compte");
-			return dao.afficherCompteParNumero(numerocompte);
-		}
-		
-		public void setDAOCompte(DAOCo daoco) {
-			this.dao=daoco;
-		}
+	@Override
+	public Compte trouverCompte(Long numerocompte) {
+		LOGGER.info("appel à la BD pour : trouver compte");
+		return dao.afficherCompteParNumero(numerocompte);
+	}
+
+	public void setDAOCompte(DAOCo daoco) {
+		this.dao = daoco;
+	}
 
 }

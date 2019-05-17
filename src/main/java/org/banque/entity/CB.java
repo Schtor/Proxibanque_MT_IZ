@@ -11,9 +11,10 @@ import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlTransient;
 
 /**
- * Classe CB caractérisée par un numéro de carte, un plafond de retrait, un
- * type de carte et un attribut client. C'est une entité qui donnera une table dans la base de donnée. Sa PK 
- * correspond au numero de carte, et elle est un attribut de l'entité Client, prenant donc une FK client_id.
+ * Classe CB caractérisée par un numéro de carte, un plafond de retrait, un type
+ * de carte et un attribut client. C'est une entité qui donnera une table dans
+ * la base de donnée. Sa PK correspond au numero de carte, et elle est un
+ * attribut de l'entité Client, prenant donc une FK client_id.
  * 
  * @author Marwa & Ihab
  *
@@ -26,13 +27,12 @@ public class CB {
 	// Attributs
 	@Id
 	private long numeroCarte;
-	
 
-	@ManyToOne(cascade = {CascadeType.PERSIST, CascadeType.REMOVE})
-	@JoinColumn(name="client_id")
+	@ManyToOne(cascade = { CascadeType.PERSIST, CascadeType.REMOVE })
+	@JoinColumn(name = "client_id")
 	@XmlTransient
 	private Client client;
-	
+
 	private int plafondRetrait = 300;
 	private String typeCarte;
 
@@ -40,7 +40,7 @@ public class CB {
 	public CB(String typeCarte) {
 		this.typeCarte = typeCarte;
 	}
-	
+
 	public CB(long numeroCarte, Client c) {
 		super();
 		this.numeroCarte = numeroCarte;
@@ -51,15 +51,15 @@ public class CB {
 		super();
 	}
 
-
 	// Getters et setters
 	public Client getClient() {
 		return client;
 	}
-	
+
 	public void setClient(Client client) {
 		this.client = client;
 	}
+
 	public long getNumeroCarte() {
 		return numeroCarte;
 	}

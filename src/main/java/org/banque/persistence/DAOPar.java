@@ -3,7 +3,6 @@ package org.banque.persistence;
 import java.util.List;
 
 import org.banque.entity.Client;
-import org.banque.entity.Particulier;
 
 public interface DAOPar {
 
@@ -12,7 +11,7 @@ public interface DAOPar {
 	 * 
 	 * @param Client
 	 */
-	void sauvegarderClient(Client p);
+	int sauvegarderClient(Client p);
 
 	/**
 	 * Méthode retournant un Particulier de table clients à partir de son id.
@@ -20,7 +19,7 @@ public interface DAOPar {
 	 * @param Long id
 	 */
 
-	Particulier afficherClientParId(Long id);
+	Client afficherClientParId(Long id);
 
 	/**
 	 * Méthode retournant la liste de tous les Particulier dans la table clients.

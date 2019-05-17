@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"org.banque.entity"},{"l":"org.banque.persistence"},{"l":"org.banque.presentation"},{"l":"org.banque.service"},{"l":"org.banque.test"},{"l":"ws.rest"}]

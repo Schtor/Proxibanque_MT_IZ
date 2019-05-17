@@ -21,14 +21,10 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Entreprise extends Client {
 
-//	Attribut
-	private Long numeroSIRET;
-
 //	Constructeur
 
 	public Entreprise(String nom, String adresse, Long codePostal, String ville, String telephone, Long numeroSIRET) {
 		super(nom, adresse, codePostal, ville, telephone);
-		this.numeroSIRET = numeroSIRET;
 	}
 
 	public Entreprise() {
@@ -37,13 +33,6 @@ public class Entreprise extends Client {
 	}
 
 	// Getter et setter
-	public Long getNumeroSIRET() {
-		return numeroSIRET;
-	}
-
-	public void setNumeroSIRET(long numeroSIRET) {
-		this.numeroSIRET = numeroSIRET;
-	}
 
 	@Override
 	public Long getId() {
@@ -156,7 +145,7 @@ public class Entreprise extends Client {
 	// TOSTRING
 	@Override
 	public String toString() {
-		return "Entreprise [numeroSIRET=" + numeroSIRET + ", toString()=" + super.toString() + "]";
+		return "Entreprise [ toString()=" + super.toString() + "]";
 	}
 
 }

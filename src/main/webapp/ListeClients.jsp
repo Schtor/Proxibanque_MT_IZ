@@ -15,12 +15,12 @@
 
 
 	<table>
-	<c:forEach items="${listeClients}" var="client">
-	<tr>
-		<td>${client.id}</td> 
-<%-- 		${cl.nom} ${cl.nom} ${cl.prenom} ${cl.adresse} ${cl.codePostaml} ${cl.ville} ${cl.telephone} ${cl.numeroSIRET} ${cl.cb.numeroCarte} ${cl.compteE.numeroCompte} ${cl.compteco.numeroCompte} --%>
-	</tr>
-	</c:forEach>
+		<c:forEach items="${listeClients}" var="client">
+			<tr>
+				<td>${client.id}</td>
+				<%-- 		${cl.nom} ${cl.nom} ${cl.prenom} ${cl.adresse} ${cl.codePostaml} ${cl.ville} ${cl.telephone} ${cl.numeroSIRET} ${cl.cb.numeroCarte} ${cl.compteE.numeroCompte} ${cl.compteco.numeroCompte} --%>
+			</tr>
+		</c:forEach>
 	</table>
 
 

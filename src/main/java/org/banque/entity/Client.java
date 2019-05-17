@@ -17,11 +17,13 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 /**
  * Classe Client caractérisée par un id, un nom, une adresse, un code postal,
- * une ville, un téléphone. On lui ajoute en attribut des objets Conseiller, un SetCompte qui comptient des 
- * CompteCourant et CompteEpargne, et un SetCB qui contient des objets CB. C'est une entité qui donnera une
- * table dans la base de donnée. Sa PK correspond à l'attribut Id, dont la valeur est générée automatiquement
- * et elle est un attribut de l'entité Conseiller, prenant donc une FK conseiller_id. C'est la classe mère de 
- * Particulier et Entreprise, qui apparaitront donc dans la table client dans la base de données.
+ * une ville, un téléphone. On lui ajoute en attribut des objets Conseiller, un
+ * SetCompte qui comptient des CompteCourant et CompteEpargne, et un SetCB qui
+ * contient des objets CB. C'est une entité qui donnera une table dans la base
+ * de donnée. Sa PK correspond à l'attribut Id, dont la valeur est générée
+ * automatiquement et elle est un attribut de l'entité Conseiller, prenant donc
+ * une FK conseiller_id. C'est la classe mère de Particulier et Entreprise, qui
+ * apparaitront donc dans la table client dans la base de données.
  * 
  * @author Marwa & Ihab
  *
@@ -32,24 +34,23 @@ import javax.xml.bind.annotation.XmlRootElement;
 @Inheritance(strategy = InheritanceType.JOINED)
 @DiscriminatorColumn(name = "TypeClient", discriminatorType = DiscriminatorType.STRING)
 public class Client {
-	
+
 //	Attributs
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 
-	@OneToOne(cascade = {CascadeType.PERSIST, CascadeType.REMOVE})
-	@JoinColumn(name="Numero_de_compte_courant", unique=true)
-	private CompteCourant compteco=new CompteCourant();
-	
-	@OneToOne(cascade = {CascadeType.PERSIST, CascadeType.REMOVE})
-	@JoinColumn(name="Numero_de_compte_epargne", unique=true)
+	@OneToOne(cascade = { CascadeType.PERSIST, CascadeType.REMOVE })
+	@JoinColumn(name = "Numero_de_compte_courant", unique = true)
+	private CompteCourant compteco = new CompteCourant();
+
+	@OneToOne(cascade = { CascadeType.PERSIST, CascadeType.REMOVE })
+	@JoinColumn(name = "Numero_de_compte_epargne", unique = true)
 	private CompteEpargne compteE;
 
-	@OneToOne(cascade = {CascadeType.PERSIST, CascadeType.REMOVE})
-	@JoinColumn(name="numero_cb", unique=true)
+	@OneToOne(cascade = { CascadeType.PERSIST, CascadeType.REMOVE })
+	@JoinColumn(name = "numero_cb", unique = true)
 	private CB cb;
-
 
 	private String nom;
 	private String prenom;
@@ -162,5 +163,5 @@ public class Client {
 	public void setCb(CB cb) {
 		this.cb = cb;
 	}
-	
+
 }

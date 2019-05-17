@@ -13,11 +13,13 @@ import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlTransient;
 
 /**
- * Classe Compte caractérisée par un id, un numéro de compte, un solde et une date d'ouverture. On lui ajoute
- * en attribut des objets Client. C'est une entité qui donnera une table dans la base de donnée. 
- * Sa PK correspond à l'attribut Id, dont la valeur est générée automatiquementet elle est un attribut 
- * de l'entité Client, prenant donc une FK client_id. C'est la classe mère de 
- * CompteCourant et CompteEpargne, qui apparaitront donc dans la table Compte dans la base de données.
+ * Classe Compte caractérisée par un id, un numéro de compte, un solde et une
+ * date d'ouverture. On lui ajoute en attribut des objets Client. C'est une
+ * entité qui donnera une table dans la base de donnée. Sa PK correspond à
+ * l'attribut Id, dont la valeur est générée automatiquementet elle est un
+ * attribut de l'entité Client, prenant donc une FK client_id. C'est la classe
+ * mère de CompteCourant et CompteEpargne, qui apparaitront donc dans la table
+ * Compte dans la base de données.
  * 
  * @author Marwa & Ihab
  *
@@ -47,13 +49,13 @@ public class Compte {
 		this.dateOuverture = dateOuverture;
 		this.client = c;
 	}
-	
+
 	public Compte(int solde, Long numeroCompte, String dateOuverture) {
 		this.solde = solde;
 		this.numeroCompte = numeroCompte;
 		this.dateOuverture = dateOuverture;
 	}
-	
+
 	public Compte() {
 		super();
 	}

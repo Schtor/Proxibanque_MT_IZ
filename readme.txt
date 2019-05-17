@@ -100,7 +100,7 @@ Cliquez sur Send à la fin de chaque étape pour valider votre requete.
 
 Veuillez suivre les indications suivantes:
 
-1) Rendez vous dans le dossier javadoc, puis dans le dossier doc.
+1) Rendez vous dans le dossier doc.
 
 2) Double cliquez sur 'index.html'.
 

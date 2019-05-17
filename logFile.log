@@ -5196,3 +5196,2137 @@
 				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5edf2821] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
 15:14:59.410 2192 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
 				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:20:16.909 278  [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+15:20:16.917 286  [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+15:20:16.972 341  [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+15:20:17.130 499  [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+15:20:17.341 710  [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+15:20:17.347 716  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+15:20:17.347 716  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+15:20:17.347 716  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+15:20:17.350 719  [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+15:20:17.506 875  [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+15:20:17.720 1089 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1d12b024] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+15:20:17.792 1161 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:20:17.804 1173 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+15:20:17.804 1173 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+15:20:17.810 1179 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+15:20:17.811 1180 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+15:20:17.811 1180 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+15:20:17.811 1180 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+15:20:17.812 1181 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+15:20:17.817 1186 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+15:20:17.827 1196 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5e268ce6] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+15:20:17.887 1256 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:20:17.899 1268 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+15:20:17.900 1269 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+15:20:17.908 1277 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+15:20:17.908 1277 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+15:20:17.908 1277 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+15:20:17.909 1278 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+15:20:17.909 1278 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+15:20:17.914 1283 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+15:20:17.924 1293 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5bca7664] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+15:20:17.982 1351 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:20:17.987 1356 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+15:20:17.987 1356 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+15:20:17.993 1362 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+15:20:17.993 1362 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+15:20:17.994 1363 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+15:20:17.994 1363 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+15:20:17.994 1363 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+15:20:18.000 1369 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+15:20:18.010 1379 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@616b241a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+15:20:18.070 1439 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:20:18.079 1448 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+15:20:18.079 1448 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+15:20:18.088 1457 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+15:20:18.088 1457 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+15:20:18.089 1458 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+15:20:18.089 1458 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+15:20:18.089 1458 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+15:20:18.095 1464 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+15:20:18.106 1475 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@f2ce6b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+15:20:18.158 1527 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:20:18.164 1533 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+15:20:18.165 1534 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+15:20:18.171 1540 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+15:20:18.171 1540 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+15:20:18.172 1541 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+15:20:18.172 1541 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+15:20:18.172 1541 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+15:20:18.177 1546 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+15:20:18.189 1558 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5edf2821] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+15:20:18.236 1605 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:22:42.624 257  [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+15:22:42.632 265  [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+15:22:42.687 320  [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+15:22:42.841 474  [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+15:22:43.039 672  [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+15:22:43.045 678  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+15:22:43.045 678  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+15:22:43.046 679  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+15:22:43.048 681  [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+15:22:43.201 834  [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+15:22:43.413 1046 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@476ec9d0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+15:22:43.486 1119 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:22:43.500 1133 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+15:22:43.500 1133 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+15:22:43.508 1141 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+15:22:43.509 1142 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+15:22:43.510 1143 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+15:22:43.510 1143 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+15:22:43.510 1143 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+15:22:43.516 1149 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+15:22:43.531 1164 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4074023c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+15:22:43.577 1210 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:22:43.584 1217 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+15:22:43.584 1217 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+15:22:43.597 1230 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+15:22:43.597 1230 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+15:22:43.597 1230 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+15:22:43.597 1230 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+15:22:43.598 1231 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+15:22:43.602 1235 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+15:22:43.615 1248 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1d25c1c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+15:22:43.656 1289 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:22:43.662 1295 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+15:22:43.663 1296 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+15:22:43.668 1301 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+15:22:43.668 1301 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+15:22:43.668 1301 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+15:22:43.669 1302 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+15:22:43.669 1302 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+15:22:43.673 1306 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+15:22:43.682 1315 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2116b68b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+15:22:43.731 1364 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:22:43.737 1370 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+15:22:43.737 1370 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+15:22:43.743 1376 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+15:22:43.743 1376 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+15:22:43.743 1376 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+15:22:43.743 1376 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+15:22:43.743 1376 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+15:22:43.747 1380 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+15:22:43.758 1391 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3d98d138] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+15:22:43.816 1449 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:22:43.825 1458 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+15:22:43.825 1458 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+15:22:43.833 1466 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+15:22:43.833 1466 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+15:22:43.833 1466 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+15:22:43.833 1466 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+15:22:43.833 1466 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+15:22:43.838 1471 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+15:22:43.848 1481 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@37191ef0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+15:22:43.897 1530 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:26:56.618 258  [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+15:26:56.627 267  [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+15:26:56.682 322  [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+15:26:56.836 476  [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+15:26:57.032 672  [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+15:26:57.037 677  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+15:26:57.038 678  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+15:26:57.038 678  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+15:26:57.040 680  [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+15:26:57.193 833  [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+15:26:57.400 1040 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@476ec9d0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+15:26:57.482 1122 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:26:57.493 1133 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+15:26:57.493 1133 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+15:26:57.499 1139 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+15:26:57.500 1140 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+15:26:57.500 1140 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+15:26:57.500 1140 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+15:26:57.501 1141 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+15:26:57.507 1147 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+15:26:57.521 1161 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4074023c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+15:26:57.566 1206 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:26:57.578 1218 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+15:26:57.578 1218 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+15:26:57.584 1224 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+15:26:57.585 1225 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+15:26:57.585 1225 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+15:26:57.585 1225 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+15:26:57.585 1225 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+15:26:57.589 1229 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+15:26:57.599 1239 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1d25c1c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+15:26:57.641 1281 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:26:57.646 1286 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+15:26:57.647 1287 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+15:26:57.652 1292 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+15:26:57.653 1293 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+15:26:57.653 1293 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+15:26:57.653 1293 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+15:26:57.653 1293 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+15:26:57.657 1297 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+15:26:57.666 1306 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2116b68b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+15:26:57.717 1357 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:26:57.723 1363 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+15:26:57.723 1363 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+15:26:57.729 1369 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+15:26:57.730 1370 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+15:26:57.730 1370 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+15:26:57.730 1370 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+15:26:57.730 1370 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+15:26:57.734 1374 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+15:26:57.744 1384 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3d98d138] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+15:26:57.796 1436 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:26:57.805 1445 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+15:26:57.805 1445 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+15:26:57.813 1453 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+15:26:57.813 1453 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+15:26:57.813 1453 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+15:26:57.813 1453 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+15:26:57.814 1454 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+15:26:57.819 1459 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+15:26:57.828 1468 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@37191ef0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+15:26:57.884 1524 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:31:00.186 278  [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+15:31:00.194 286  [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+15:31:00.251 343  [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+15:31:00.409 501  [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+15:31:00.615 707  [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+15:31:00.620 712  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+15:31:00.621 713  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+15:31:00.621 713  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+15:31:00.624 716  [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+15:31:00.782 874  [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+15:31:00.995 1087 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@476ec9d0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+15:31:01.073 1165 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:31:01.086 1178 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+15:31:01.086 1178 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+15:31:01.095 1187 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+15:31:01.096 1188 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+15:31:01.096 1188 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+15:31:01.096 1188 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+15:31:01.096 1188 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+15:31:01.102 1194 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+15:31:01.114 1206 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4074023c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+15:31:01.159 1251 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:31:01.166 1258 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+15:31:01.166 1258 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+15:31:01.181 1273 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+15:31:01.181 1273 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+15:31:01.182 1274 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+15:31:01.182 1274 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+15:31:01.182 1274 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+15:31:01.188 1280 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+15:31:01.201 1293 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1d25c1c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+15:31:01.252 1344 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:31:01.259 1351 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+15:31:01.259 1351 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+15:31:01.265 1357 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+15:31:01.266 1358 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+15:31:01.266 1358 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+15:31:01.266 1358 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+15:31:01.266 1358 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+15:31:01.271 1363 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+15:31:01.284 1376 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2116b68b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+15:31:01.343 1435 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:31:01.351 1443 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+15:31:01.351 1443 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+15:31:01.359 1451 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+15:31:01.359 1451 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+15:31:01.360 1452 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+15:31:01.360 1452 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+15:31:01.360 1452 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+15:31:01.365 1457 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+15:31:01.374 1466 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3d98d138] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+15:31:01.445 1537 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:31:01.451 1543 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+15:31:01.451 1543 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+15:31:01.457 1549 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+15:31:01.457 1549 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+15:31:01.457 1549 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+15:31:01.457 1549 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+15:31:01.458 1550 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+15:31:01.462 1554 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+15:31:01.471 1563 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@37191ef0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+15:31:01.518 1610 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:17:39.421 297  [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:17:39.429 305  [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:17:39.492 368  [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+16:17:39.542 418  [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+16:17:39.751 627  [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:17:39.757 633  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:17:39.758 634  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:17:39.758 634  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:17:39.761 637  [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:17:39.946 822  [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:17:40.161 1037 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7a729f84] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:17:40.233 1109 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:17:40.244 1120 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:17:40.245 1121 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:17:40.252 1128 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:17:40.252 1128 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:17:40.253 1129 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:17:40.253 1129 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:17:40.253 1129 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:17:40.258 1134 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:17:40.267 1143 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4745e9c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:17:40.309 1185 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:17:40.320 1196 [main] INFO  o.b.s.ClientServiceImplementation
+				- appel à la BD pour : client entreprise ajouté
+16:18:29.933 300  [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:18:29.942 309  [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:18:29.999 366  [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+16:18:30.050 417  [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+16:18:30.251 618  [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:18:30.256 623  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:18:30.257 624  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:18:30.257 624  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:18:30.259 626  [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:18:30.445 812  [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:18:30.652 1019 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7a729f84] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:18:30.724 1091 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:18:30.734 1101 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:18:30.734 1101 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:18:30.741 1108 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:18:30.741 1108 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:18:30.742 1109 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:18:30.742 1109 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:18:30.742 1109 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:18:30.747 1114 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:18:30.757 1124 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4745e9c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:18:30.801 1168 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:18:30.816 1183 [main] INFO  o.b.s.ClientServiceImplementation
+				- appel à la BD pour : client particulier ajouté
+16:20:35.870 261  [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:20:35.878 269  [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:20:35.935 326  [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+16:20:36.091 482  [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+16:20:36.290 681  [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:20:36.297 688  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:20:36.297 688  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:20:36.297 688  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:20:36.300 691  [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:20:36.462 853  [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:20:36.669 1060 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@476ec9d0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:20:36.738 1129 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:20:36.749 1140 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:20:36.749 1140 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:20:36.756 1147 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:20:36.757 1148 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:20:36.757 1148 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:20:36.757 1148 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:20:36.757 1148 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:20:36.762 1153 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:20:36.777 1168 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3ac04654] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:20:36.826 1217 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:20:36.834 1225 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:20:36.834 1225 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:20:36.846 1237 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:20:36.847 1238 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:20:36.847 1238 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:20:36.847 1238 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:20:36.847 1238 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:20:36.851 1242 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:20:36.862 1253 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@629ae7e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:20:36.926 1317 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:20:36.933 1324 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:20:36.933 1324 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:20:36.941 1332 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:20:36.941 1332 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:20:36.941 1332 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:20:36.942 1333 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:20:36.942 1333 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:20:36.947 1338 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:20:36.957 1348 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6411d3c8] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:20:37.005 1396 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:20:37.012 1403 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:20:37.012 1403 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:20:37.018 1409 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:20:37.018 1409 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:20:37.019 1410 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:20:37.019 1410 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:20:37.019 1410 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:20:37.023 1414 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:20:37.033 1424 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4a8df3e2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:20:37.096 1487 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:20:37.104 1495 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:20:37.104 1495 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:20:37.113 1504 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:20:37.113 1504 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:20:37.113 1504 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:20:37.114 1505 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:20:37.114 1505 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:20:37.119 1510 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:20:37.130 1521 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2f1ea80d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:20:37.167 1558 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:24:23.474 321  [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:24:23.530 377  [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+16:24:23.670 517  [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+16:24:23.872 719  [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:24:23.877 724  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:24:23.878 725  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:24:23.878 725  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:24:23.880 727  [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:24:24.035 882  [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:24:24.183 1030 [main] WARN  org.hibernate.cfg.AnnotationBinder
+				- HHH000457: Joined inheritance hierarchy [org.banque.entity.Client] defined explicit @DiscriminatorColumn.  Legacy Hibernate behavior was to ignore the @DiscriminatorColumn.  However, as part of issue HHH-6911 we now apply the explicit @DiscriminatorColumn.  If you would prefer the legacy behavior, enable the `hibernate.discriminator.ignore_explicit_for_joined` setting (hibernate.discriminator.ignore_explicit_for_joined=true)
+16:24:24.690 1537 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7a8b9166] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:24:25.175 2022 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:24:25.196 2043 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:24:25.211 2058 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:24:25.213 2060 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:24:25.214 2061 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:24:25.214 2061 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:24:25.214 2061 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:24:25.220 2067 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:24:25.226 2073 [main] WARN  org.hibernate.cfg.AnnotationBinder
+				- HHH000457: Joined inheritance hierarchy [org.banque.entity.Client] defined explicit @DiscriminatorColumn.  Legacy Hibernate behavior was to ignore the @DiscriminatorColumn.  However, as part of issue HHH-6911 we now apply the explicit @DiscriminatorColumn.  If you would prefer the legacy behavior, enable the `hibernate.discriminator.ignore_explicit_for_joined` setting (hibernate.discriminator.ignore_explicit_for_joined=true)
+16:24:25.261 2108 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@f1868c9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:24:25.728 2575 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:24:25.732 2579 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:24:25.743 2590 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:24:25.743 2590 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:24:25.743 2590 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:24:25.744 2591 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:24:25.744 2591 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:24:25.749 2596 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:24:25.754 2601 [main] WARN  org.hibernate.cfg.AnnotationBinder
+				- HHH000457: Joined inheritance hierarchy [org.banque.entity.Client] defined explicit @DiscriminatorColumn.  Legacy Hibernate behavior was to ignore the @DiscriminatorColumn.  However, as part of issue HHH-6911 we now apply the explicit @DiscriminatorColumn.  If you would prefer the legacy behavior, enable the `hibernate.discriminator.ignore_explicit_for_joined` setting (hibernate.discriminator.ignore_explicit_for_joined=true)
+16:24:25.782 2629 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4ee25d80] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:24:26.266 3113 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:24:26.353 3200 [main] INFO  org.banque.persistence.DAOCompte
+				- compte renvoyé au service
+16:24:26.362 3209 [main] INFO  org.banque.persistence.DAOCompte
+				- compte renvoyé au service
+16:24:26.363 3210 [main] INFO  o.b.s.BanqueServiceImplementation
+				- virement effectué
+16:24:42.493 312  [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:24:42.550 369  [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+16:24:42.696 515  [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+16:24:42.902 721  [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:24:42.908 727  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:24:42.908 727  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:24:42.909 728  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:24:42.911 730  [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:24:43.074 893  [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:24:43.217 1036 [main] WARN  org.hibernate.cfg.AnnotationBinder
+				- HHH000457: Joined inheritance hierarchy [org.banque.entity.Client] defined explicit @DiscriminatorColumn.  Legacy Hibernate behavior was to ignore the @DiscriminatorColumn.  However, as part of issue HHH-6911 we now apply the explicit @DiscriminatorColumn.  If you would prefer the legacy behavior, enable the `hibernate.discriminator.ignore_explicit_for_joined` setting (hibernate.discriminator.ignore_explicit_for_joined=true)
+16:24:43.730 1549 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7a8b9166] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:24:44.171 1990 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:24:44.178 1997 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:24:44.189 2008 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:24:44.190 2009 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:24:44.190 2009 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:24:44.191 2010 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:24:44.191 2010 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:24:44.195 2014 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:24:44.201 2020 [main] WARN  org.hibernate.cfg.AnnotationBinder
+				- HHH000457: Joined inheritance hierarchy [org.banque.entity.Client] defined explicit @DiscriminatorColumn.  Legacy Hibernate behavior was to ignore the @DiscriminatorColumn.  However, as part of issue HHH-6911 we now apply the explicit @DiscriminatorColumn.  If you would prefer the legacy behavior, enable the `hibernate.discriminator.ignore_explicit_for_joined` setting (hibernate.discriminator.ignore_explicit_for_joined=true)
+16:24:44.229 2048 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@f1868c9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:24:44.737 2556 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:24:44.742 2561 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:24:44.755 2574 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:24:44.755 2574 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:24:44.756 2575 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:24:44.756 2575 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:24:44.756 2575 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:24:44.762 2581 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:24:44.767 2586 [main] WARN  org.hibernate.cfg.AnnotationBinder
+				- HHH000457: Joined inheritance hierarchy [org.banque.entity.Client] defined explicit @DiscriminatorColumn.  Legacy Hibernate behavior was to ignore the @DiscriminatorColumn.  However, as part of issue HHH-6911 we now apply the explicit @DiscriminatorColumn.  If you would prefer the legacy behavior, enable the `hibernate.discriminator.ignore_explicit_for_joined` setting (hibernate.discriminator.ignore_explicit_for_joined=true)
+16:24:44.795 2614 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4ee25d80] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:24:45.243 3062 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:24:45.343 3162 [main] INFO  org.banque.persistence.DAOCompte
+				- compte renvoyé au service
+16:24:45.352 3171 [main] INFO  org.banque.persistence.DAOCompte
+				- compte renvoyé au service
+16:24:45.353 3172 [main] INFO  o.b.s.BanqueServiceImplementation
+				- virement refusé
+16:28:20.626 261  [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:28:20.633 268  [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:28:20.687 322  [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+16:28:20.839 474  [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+16:28:21.036 671  [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:28:21.041 676  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:28:21.042 677  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:28:21.042 677  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:28:21.044 679  [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:28:21.199 834  [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:28:21.405 1040 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6a10b263] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:28:21.474 1109 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:28:21.485 1120 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:28:21.485 1120 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:28:21.492 1127 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:28:21.493 1128 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:28:21.493 1128 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:28:21.493 1128 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:28:21.493 1128 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:28:21.499 1134 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:28:21.509 1144 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5bb7643d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:28:21.557 1192 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:28:21.564 1199 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:28:21.564 1199 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:28:21.575 1210 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:28:21.576 1211 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:28:21.576 1211 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:28:21.576 1211 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:28:21.576 1211 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:28:21.581 1216 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:28:21.593 1228 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@333cb916] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:28:21.636 1271 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:28:21.642 1277 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:28:21.642 1277 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:28:21.648 1283 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:28:21.648 1283 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:28:21.648 1283 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:28:21.649 1284 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:28:21.649 1284 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:28:21.653 1288 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:28:21.664 1299 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@256aa5f2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:28:21.716 1351 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:28:21.722 1357 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:28:21.722 1357 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:28:21.729 1364 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:28:21.729 1364 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:28:21.729 1364 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:28:21.730 1365 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:28:21.730 1365 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:28:21.734 1369 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:28:21.745 1380 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6eb82908] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:28:21.796 1431 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:28:21.805 1440 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:28:21.805 1440 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:28:21.812 1447 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:28:21.812 1447 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:28:21.812 1447 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:28:21.813 1448 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:28:21.813 1448 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:28:21.817 1452 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:28:21.826 1461 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@62566842] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:28:21.869 1504 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:29:29.676 266  [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:29:29.684 274  [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:29:29.742 332  [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+16:29:29.899 489  [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+16:29:30.102 692  [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:29:30.107 697  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:29:30.108 698  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:29:30.108 698  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:29:30.110 700  [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:29:30.261 851  [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:29:30.472 1062 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6a10b263] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:29:30.545 1135 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:29:30.556 1146 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:29:30.556 1146 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:29:30.564 1154 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:29:30.565 1155 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:29:30.565 1155 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:29:30.565 1155 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:29:30.565 1155 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:29:30.570 1160 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:29:30.583 1173 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5bb7643d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:29:30.627 1217 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:29:30.634 1224 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:29:30.634 1224 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:29:30.647 1237 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:29:30.648 1238 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:29:30.648 1238 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:29:30.648 1238 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:29:30.648 1238 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:29:30.653 1243 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:29:30.666 1256 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@333cb916] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:29:30.712 1302 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:29:30.718 1308 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:29:30.719 1309 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:29:30.725 1315 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:29:30.725 1315 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:29:30.726 1316 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:29:30.726 1316 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:29:30.726 1316 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:29:30.730 1320 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:29:30.745 1335 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@256aa5f2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:29:30.793 1383 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:29:30.801 1391 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:29:30.801 1391 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:29:30.809 1399 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:29:30.810 1400 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:29:30.810 1400 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:29:30.810 1400 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:29:30.810 1400 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:29:30.815 1405 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:29:30.824 1414 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6eb82908] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:29:30.874 1464 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:29:30.883 1473 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:29:30.883 1473 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:29:30.891 1481 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:29:30.892 1482 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:29:30.892 1482 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:29:30.892 1482 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:29:30.892 1482 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:29:30.897 1487 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:29:30.908 1498 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@62566842] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:29:30.953 1543 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:30:09.675 260  [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:30:09.682 267  [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:30:09.741 326  [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+16:30:09.885 470  [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+16:30:10.084 669  [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:30:10.090 675  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:30:10.091 676  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:30:10.091 676  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:30:10.094 679  [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:30:10.250 835  [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:30:10.467 1052 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@476ec9d0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:30:10.540 1125 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:30:10.551 1136 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:30:10.552 1137 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:30:10.560 1145 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:30:10.561 1146 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:30:10.561 1146 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:30:10.561 1146 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:30:10.561 1146 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:30:10.566 1151 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:30:10.579 1164 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3ac04654] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:30:10.626 1211 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:30:10.633 1218 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:30:10.634 1219 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:30:10.646 1231 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:30:10.647 1232 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:30:10.647 1232 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:30:10.647 1232 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:30:10.647 1232 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:30:10.651 1236 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:30:10.660 1245 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@629ae7e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:30:10.710 1295 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:30:10.716 1301 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:30:10.716 1301 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:30:10.722 1307 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:30:10.723 1308 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:30:10.723 1308 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:30:10.723 1308 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:30:10.723 1308 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:30:10.728 1313 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:30:10.736 1321 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6411d3c8] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:30:10.788 1373 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:30:10.795 1380 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:30:10.795 1380 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:30:10.802 1387 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:30:10.802 1387 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:30:10.803 1388 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:30:10.803 1388 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:30:10.803 1388 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:30:10.807 1392 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:30:10.817 1402 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4a8df3e2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:30:10.874 1459 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:30:10.881 1466 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:30:10.881 1466 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:30:10.887 1472 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:30:10.887 1472 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:30:10.887 1472 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:30:10.888 1473 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:30:10.888 1473 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:30:10.891 1476 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:30:10.901 1486 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2f1ea80d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:30:10.948 1533 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:51:04.856 318  [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:51:04.865 327  [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:51:04.918 380  [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+16:51:05.083 545  [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+16:51:05.288 750  [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:51:05.293 755  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:51:05.293 755  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:51:05.294 756  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:51:05.296 758  [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:51:05.450 912  [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:51:05.659 1121 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@476ec9d0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:51:05.728 1190 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:51:05.741 1203 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:51:05.741 1203 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:51:05.748 1210 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:51:05.748 1210 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:51:05.749 1211 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:51:05.749 1211 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:51:05.749 1211 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:51:05.755 1217 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:51:05.767 1229 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3ac04654] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:51:05.824 1286 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:51:05.831 1293 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:51:05.831 1293 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:51:05.837 1299 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:51:05.837 1299 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:51:05.837 1299 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:51:05.838 1300 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:51:05.838 1300 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:51:05.842 1304 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:51:05.857 1319 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@629ae7e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:51:05.905 1367 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:51:05.911 1373 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:51:05.911 1373 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:51:05.917 1379 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:51:05.917 1379 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:51:05.917 1379 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:51:05.917 1379 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:51:05.917 1379 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:51:05.923 1385 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:51:05.935 1397 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6411d3c8] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:51:05.983 1445 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:51:05.991 1453 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:51:05.991 1453 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:51:05.998 1460 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:51:05.998 1460 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:51:05.998 1460 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:51:05.999 1461 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:51:05.999 1461 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:51:06.003 1465 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:51:06.012 1474 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4a8df3e2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:51:06.071 1533 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:51:06.079 1541 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:51:06.079 1541 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:51:06.086 1548 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:51:06.086 1548 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:51:06.087 1549 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:51:06.087 1549 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:51:06.087 1549 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:51:06.092 1554 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:51:06.102 1564 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2f1ea80d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:51:06.148 1610 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:52:08.571 265  [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:52:08.579 273  [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:52:08.633 327  [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+16:52:08.782 476  [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+16:52:08.982 676  [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:52:08.987 681  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:52:08.988 682  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:52:08.988 682  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:52:08.991 685  [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:52:09.148 842  [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:52:09.352 1046 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@476ec9d0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:52:09.423 1117 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:52:09.435 1129 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:52:09.435 1129 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:52:09.442 1136 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:52:09.443 1137 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:52:09.443 1137 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:52:09.444 1138 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:52:09.444 1138 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:52:09.450 1144 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:52:09.461 1155 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3ac04654] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:52:09.510 1204 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:52:09.518 1212 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:52:09.518 1212 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:52:09.530 1224 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:52:09.530 1224 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:52:09.531 1225 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:52:09.531 1225 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:52:09.531 1225 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:52:09.535 1229 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:52:09.547 1241 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@629ae7e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:52:09.591 1285 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:52:09.598 1292 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:52:09.598 1292 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:52:09.604 1298 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:52:09.604 1298 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:52:09.605 1299 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:52:09.605 1299 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:52:09.605 1299 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:52:09.609 1303 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:52:09.619 1313 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6411d3c8] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:52:09.673 1367 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:52:09.679 1373 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:52:09.680 1374 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:52:09.685 1379 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:52:09.686 1380 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:52:09.686 1380 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:52:09.686 1380 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:52:09.686 1380 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:52:09.690 1384 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:52:09.701 1395 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4a8df3e2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:52:09.751 1445 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:52:09.758 1452 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:52:09.759 1453 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:52:09.764 1458 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:52:09.765 1459 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:52:09.765 1459 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:52:09.765 1459 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:52:09.765 1459 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:52:09.769 1463 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:52:09.777 1471 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2f1ea80d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:52:09.829 1523 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:53:41.451 266  [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:53:41.459 274  [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:53:41.513 328  [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+16:53:41.665 480  [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+16:53:41.870 685  [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:53:41.875 690  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:53:41.876 691  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:53:41.876 691  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:53:41.879 694  [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:53:42.028 843  [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:53:42.236 1051 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6a10b263] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:53:42.310 1125 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:53:42.321 1136 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:53:42.321 1136 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:53:42.328 1143 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:53:42.329 1144 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:53:42.329 1144 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:53:42.329 1144 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:53:42.329 1144 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:53:42.334 1149 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:53:42.346 1161 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5bb7643d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:53:42.394 1209 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:53:42.403 1218 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:53:42.403 1218 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:53:42.415 1230 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:53:42.416 1231 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:53:42.416 1231 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:53:42.416 1231 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:53:42.416 1231 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:53:42.421 1236 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:53:42.431 1246 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@333cb916] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:53:42.476 1291 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:53:42.482 1297 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:53:42.482 1297 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:53:42.488 1303 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:53:42.488 1303 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:53:42.488 1303 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:53:42.488 1303 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:53:42.488 1303 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:53:42.493 1308 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:53:42.501 1316 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@256aa5f2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:53:42.551 1366 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:53:42.557 1372 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:53:42.557 1372 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:53:42.563 1378 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:53:42.563 1378 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:53:42.563 1378 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:53:42.563 1378 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:53:42.563 1378 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:53:42.567 1382 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:53:42.575 1390 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6eb82908] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:53:42.634 1449 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:53:42.640 1455 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:53:42.641 1456 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:53:42.646 1461 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:53:42.647 1462 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:53:42.647 1462 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:53:42.647 1462 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:53:42.647 1462 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:53:42.652 1467 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:53:42.662 1477 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@62566842] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:53:42.706 1521 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:53:42.712 1527 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:53:42.712 1527 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:53:42.718 1533 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:53:42.718 1533 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:53:42.718 1533 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:53:42.718 1533 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:53:42.719 1534 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:53:42.723 1538 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:53:42.734 1549 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@365a6a43] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:53:42.780 1595 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:53:42.787 1602 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:53:42.787 1602 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:53:42.793 1608 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:53:42.793 1608 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:53:42.793 1608 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:53:42.793 1608 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:53:42.793 1608 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:53:42.797 1612 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:53:42.804 1619 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6107165] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:53:42.851 1666 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:53:42.929 1744 [main] INFO  o.b.s.BanqueServiceImplementation
+				- virement effectué
+16:55:29.283 262  [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:55:29.290 269  [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:55:29.344 323  [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+16:55:29.493 472  [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+16:55:29.694 673  [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:55:29.699 678  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:55:29.700 679  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:55:29.700 679  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:55:29.702 681  [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:55:29.861 840  [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:55:30.063 1042 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@476ec9d0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:55:30.131 1110 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:55:30.141 1120 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:55:30.142 1121 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:55:30.148 1127 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:55:30.149 1128 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:55:30.149 1128 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:55:30.149 1128 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:55:30.149 1128 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:55:30.155 1134 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:55:30.165 1144 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3ac04654] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:55:30.214 1193 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:55:30.221 1200 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:55:30.221 1200 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:55:30.233 1212 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:55:30.233 1212 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:55:30.233 1212 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:55:30.233 1212 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:55:30.233 1212 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:55:30.238 1217 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:55:30.248 1227 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@629ae7e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:55:30.288 1267 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:55:30.294 1273 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:55:30.295 1274 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:55:30.301 1280 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:55:30.302 1281 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:55:30.302 1281 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:55:30.302 1281 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:55:30.302 1281 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:55:30.308 1287 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:55:30.317 1296 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6411d3c8] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:55:30.365 1344 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:55:30.371 1350 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:55:30.371 1350 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:55:30.378 1357 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:55:30.378 1357 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:55:30.378 1357 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:55:30.378 1357 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:55:30.378 1357 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:55:30.383 1362 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:55:30.394 1373 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4a8df3e2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:55:30.440 1419 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:55:30.448 1427 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:55:30.449 1428 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:55:30.455 1434 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:55:30.456 1435 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:55:30.456 1435 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:55:30.456 1435 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:55:30.456 1435 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:55:30.461 1440 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:55:30.470 1449 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2f1ea80d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:55:30.523 1502 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:55:30.532 1511 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:55:30.533 1512 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:55:30.542 1521 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:55:30.542 1521 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:55:30.542 1521 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:55:30.543 1522 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:55:30.543 1522 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:55:30.547 1526 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:55:30.555 1534 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@288cdaab] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:55:30.605 1584 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:55:30.610 1589 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:55:30.611 1590 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:55:30.616 1595 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:55:30.616 1595 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:55:30.616 1595 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:55:30.616 1595 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:55:30.616 1595 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:55:30.620 1599 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:55:30.629 1608 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@164a62bf] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:55:30.680 1659 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:57:02.089 284  [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:57:02.097 292  [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:57:02.151 346  [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+16:57:02.309 504  [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+16:57:02.527 722  [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:57:02.532 727  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:57:02.533 728  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:57:02.533 728  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:57:02.536 731  [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:57:02.698 893  [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:57:02.906 1101 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6a10b263] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:57:02.980 1175 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:57:02.993 1188 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:57:02.994 1189 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:57:03.005 1200 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:57:03.006 1201 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:57:03.006 1201 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:57:03.007 1202 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:57:03.007 1202 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:57:03.013 1208 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:57:03.026 1221 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5bb7643d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:57:03.089 1284 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:57:03.101 1296 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:57:03.101 1296 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:57:03.111 1306 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:57:03.112 1307 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:57:03.112 1307 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:57:03.112 1307 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:57:03.113 1308 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:57:03.118 1313 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:57:03.130 1325 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@333cb916] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:57:03.183 1378 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:57:03.192 1387 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:57:03.192 1387 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:57:03.201 1396 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:57:03.201 1396 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:57:03.202 1397 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:57:03.202 1397 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:57:03.202 1397 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:57:03.208 1403 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:57:03.222 1417 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@256aa5f2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:57:03.277 1472 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:57:03.283 1478 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:57:03.283 1478 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:57:03.293 1488 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:57:03.293 1488 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:57:03.293 1488 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:57:03.293 1488 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:57:03.293 1488 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:57:03.299 1494 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:57:03.309 1504 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6eb82908] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:57:03.358 1553 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:57:03.365 1560 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:57:03.365 1560 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:57:03.373 1568 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:57:03.373 1568 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:57:03.373 1568 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:57:03.374 1569 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:57:03.374 1569 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:57:03.378 1573 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:57:03.393 1588 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@62566842] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:57:03.441 1636 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:57:03.447 1642 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:57:03.448 1643 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:57:03.453 1648 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:57:03.454 1649 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:57:03.454 1649 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:57:03.454 1649 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:57:03.454 1649 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:57:03.457 1652 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:57:03.466 1661 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@365a6a43] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:57:03.506 1701 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:57:03.511 1706 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:57:03.512 1707 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:57:03.518 1713 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:57:03.518 1713 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:57:03.519 1714 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:57:03.519 1714 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:57:03.519 1714 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:57:03.523 1718 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:57:03.532 1727 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6107165] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:57:03.580 1775 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:57:03.650 1845 [main] INFO  o.b.s.BanqueServiceImplementation
+				- virement effectué
+16:57:52.042 257  [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:57:52.050 265  [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:57:52.102 317  [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+16:57:52.255 470  [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+16:57:52.447 662  [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:57:52.453 668  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:57:52.453 668  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:57:52.453 668  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:57:52.456 671  [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:57:52.605 820  [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:57:52.810 1025 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@476ec9d0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:57:52.877 1092 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:57:52.888 1103 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:57:52.888 1103 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:57:52.895 1110 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:57:52.895 1110 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:57:52.896 1111 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:57:52.896 1111 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:57:52.896 1111 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:57:52.901 1116 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:57:52.911 1126 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3ac04654] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:57:52.963 1178 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:57:52.970 1185 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:57:52.970 1185 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:57:52.983 1198 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:57:52.983 1198 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:57:52.983 1198 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:57:52.984 1199 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:57:52.984 1199 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:57:52.988 1203 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:57:52.998 1213 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@629ae7e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:57:53.050 1265 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:57:53.057 1272 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:57:53.057 1272 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:57:53.063 1278 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:57:53.063 1278 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:57:53.063 1278 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:57:53.064 1279 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:57:53.064 1279 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:57:53.068 1283 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:57:53.078 1293 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6411d3c8] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:57:53.125 1340 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:57:53.133 1348 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:57:53.134 1349 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:57:53.143 1358 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:57:53.143 1358 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:57:53.144 1359 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:57:53.144 1359 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:57:53.144 1359 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:57:53.149 1364 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:57:53.159 1374 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4a8df3e2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:57:53.211 1426 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:57:53.219 1434 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:57:53.220 1435 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:57:53.228 1443 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:57:53.228 1443 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:57:53.228 1443 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:57:53.229 1444 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:57:53.229 1444 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:57:53.232 1447 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:57:53.242 1457 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2f1ea80d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:57:53.291 1506 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:57:53.297 1512 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:57:53.297 1512 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:57:53.303 1518 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:57:53.304 1519 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:57:53.304 1519 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:57:53.304 1519 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:57:53.304 1519 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:57:53.308 1523 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:57:53.317 1532 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@288cdaab] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:57:53.354 1569 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:57:53.359 1574 [main] WARN  o.h.j.b.i.PersistenceXmlParser
+				- HHH015018: Encountered multiple persistence-unit stanzas defining same name [pu]; persistence-unit names must be unique
+16:57:53.359 1574 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+16:57:53.364 1579 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+16:57:53.364 1579 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+16:57:53.364 1579 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+16:57:53.364 1579 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+16:57:53.365 1580 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+16:57:53.369 1584 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:57:53.378 1593 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@164a62bf] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:57:53.432 1647 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:57:53.506 1721 [main] INFO  o.b.s.BanqueServiceImplementation
+				- virement refusé

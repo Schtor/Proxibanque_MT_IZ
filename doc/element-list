@@ -1,0 +1,6 @@
+org.banque.entity
+org.banque.persistence
+org.banque.presentation
+org.banque.service
+org.banque.test
+ws.rest
