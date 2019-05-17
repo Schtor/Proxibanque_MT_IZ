@@ -1,9 +1,14 @@
 ws\rest\wservice.class
 ws\rest\wserviceImp.class
 org\banque\entity\Client.class
+org\banque\presentation\ServletConnexion.class
+org\banque\persistence\DAOCompte.class
 org\banque\persistence\DAOEntreprise.class
 org\banque\service\ClientServiceImplementation.class
+org\banque\service\BanqueServiceImplementation.class
 org\banque\persistence\DAOParticulier.class
+org\banque\service\BanqueService.class
+org\banque\service\CompteService.class
 org\banque\entity\CompteEpargne.class
 org\banque\entity\Test.class
 org\banque\entity\Entreprise.class
@@ -11,5 +16,7 @@ org\banque\service\ClientService.class
 org\banque\entity\Particulier.class
 org\banque\entity\Compte.class
 org\banque\persistence\DAOScenario.class
+org\banque\service\CompteServiceImplementation.class
 org\banque\entity\CB.class
 org\banque\entity\CompteCourant.class
+org\banque\presentation\ServletClients.class

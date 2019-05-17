@@ -6,6 +6,8 @@ import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
 
 import org.banque.entity.Compte;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * Cette classe contient les méthodes permettent de créer et sauvegarder des
@@ -14,6 +16,7 @@ import org.banque.entity.Compte;
  */
 public class DAOCompte {
 
+	private static final Logger LOGGER = LoggerFactory.getLogger(DAOCompte.class);
 	EntityManagerFactory emf = Persistence.createEntityManagerFactory("pu");
 	Compte c = new Compte();
 
@@ -29,6 +32,7 @@ public class DAOCompte {
 		try {
 			txn.begin();
 			c = em.find(Compte.class, numerocompte);
+			LOGGER.info("compte renvoyé au service");
 			txn.commit();
 		} catch (Exception e) {
 			if (txn != null) {

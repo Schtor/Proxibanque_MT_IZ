@@ -13,6 +13,8 @@ import javax.persistence.TypedQuery;
 
 import org.banque.entity.Client;
 import org.banque.entity.Particulier;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * Cette classe contient les méthodes permettent de créer et sauvegarder des
@@ -21,6 +23,7 @@ import org.banque.entity.Particulier;
  */
 public class DAOParticulier {
 
+	private static final Logger LOGGER = LoggerFactory.getLogger(DAOParticulier.class);
 	EntityManagerFactory emf = Persistence.createEntityManagerFactory("pu");
 	Particulier p = new Particulier();
 	List<Particulier> l = new ArrayList<Particulier>();
@@ -38,6 +41,7 @@ public class DAOParticulier {
 		try {
 			txn.begin();
 			em.persist(p);
+			LOGGER.info("client sauvegardé dans la BD");
 			txn.commit();
 
 		} catch (Exception e) {
@@ -68,6 +72,7 @@ public class DAOParticulier {
 		try {
 			txn.begin();
 			p = em.find(Particulier.class, id);
+			LOGGER.info("client renvoyé au service");
 			txn.commit();
 		} catch (Exception e) {
 			if (txn != null) {
@@ -97,6 +102,7 @@ public class DAOParticulier {
 			txn.begin();
 			TypedQuery<Client> tq = em.createQuery("FROM Particulier", Client.class);
 			l = tq.getResultList();
+			LOGGER.info("liste clients renvoyée au service");
 			txn.commit();
 
 		} catch (Exception e) {
@@ -126,6 +132,7 @@ public class DAOParticulier {
 			txn.begin();
 			p = em.find(Particulier.class, id);
 			p.setAdresse(adresse);
+			LOGGER.info("adresse modifiée dans la BD");
 			txn.commit();
 
 		} catch (Exception e) {
@@ -155,6 +162,7 @@ public class DAOParticulier {
 			txn.begin();
 			p = em.find(Particulier.class, id);
 			p.setCodePostal(codePostal);
+			LOGGER.info("code psotal modifié dans la BD");
 			txn.commit();
 
 		} catch (Exception e) {
@@ -185,6 +193,7 @@ public class DAOParticulier {
 			txn.begin();
 			p = em.find(Particulier.class, id);
 			p.setVille(ville);
+			LOGGER.info("ville modifiée dans la BD");
 			txn.commit();
 
 		} catch (Exception e) {
@@ -215,6 +224,7 @@ public class DAOParticulier {
 			txn.begin();
 			p = em.find(Particulier.class, id);
 			p.setTelephone(telephone);
+			LOGGER.info("telephone modifié dans la BD");
 			txn.commit();
 
 		} catch (Exception e) {
@@ -245,6 +255,7 @@ public class DAOParticulier {
 			txn.begin();
 			p = em.find(Particulier.class, id);
 			p.setPrenom(prenom);
+			LOGGER.info("SIRET modifié dans la BD");
 			txn.commit();
 
 		} catch (Exception e) {
@@ -274,6 +285,7 @@ public class DAOParticulier {
 			txn.begin();
 			p = em.find(Particulier.class, id);
 			p.setNom(nom);
+			LOGGER.info("nom modifié dans la BD");
 			txn.commit();
 
 		} catch (Exception e) {
@@ -304,6 +316,7 @@ public class DAOParticulier {
 			txn.begin();
 			p = em.find(Particulier.class, id);
 			em.remove(p);
+			LOGGER.info("client supprimé dans la BD");
 			txn.commit();
 
 		} catch (Exception e) {

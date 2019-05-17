@@ -41,10 +41,12 @@ public class BanqueServiceImplementation implements BanqueService {
 				if (client.getCompteE() != null) {
 					if (client.getCompteco().getSolde() + client.getCompteE().getSolde() < -5000) {
 						okAudit = false;
+						LOGGER.info("client : " + client + "audit refusé");
 					}
 				} else {
 					if (client.getCompteco().getSolde() < -5000) {
 						okAudit = false;
+						LOGGER.info("client : " + client + "audit refusé");
 					}
 				}
 			}
@@ -53,10 +55,12 @@ public class BanqueServiceImplementation implements BanqueService {
 				if (client.getCompteE() != null) {
 					if (client.getCompteco().getSolde() + client.getCompteE().getSolde() < -50000) {
 						okAudit = false;
+						LOGGER.info("client : " + client + "audit refusé");
 					}
 				} else {
 					if (client.getCompteco().getSolde() < -50000) {
 						okAudit = false;
+						LOGGER.info("client : " + client + "audit refusé");
 					}
 				}
 			}
@@ -81,9 +85,8 @@ public class BanqueServiceImplementation implements BanqueService {
 		Compte comptecred = cos.trouverCompte(compte2.getNumeroCompte());
 		if (comptedeb instanceof CompteCourant) {
 			
-			System.out.println("je suis le premier if");
 			if ((comptedeb.getSolde()-somme) < (-1000)) {
-				LOGGER.info("solde inférieur à -1000");
+				LOGGER.info("virement refusé");
 				okVirement=false;
 				} else {
 				LOGGER.info("virement effectué");

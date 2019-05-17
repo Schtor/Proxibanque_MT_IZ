@@ -8,12 +8,6 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
-
-import org.apache.cxf.transport.Session;
-import org.apache.cxf.transport.http.HTTPSession;
-
-import static java.lang.System.*;
 
 /**
  * Servlet implementation class ServletConnexion
@@ -54,7 +48,7 @@ public class ServletConnexion extends HttpServlet {
 
 		
 		if (identifiant.equalsIgnoreCase(login) && (motDePasse.equalsIgnoreCase(password))) {
-			dispatcher = request.getRequestDispatcher("Accueil.html");
+			dispatcher = request.getRequestDispatcher("ListeClients.jsp");
 		}
 		else {
 			dispatcher = request.getRequestDispatcher("Login.html");
