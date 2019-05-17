@@ -1,0 +1,130 @@
+20:11:48.869 316  [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+20:11:48.922 369  [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+20:11:49.061 508  [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+20:11:49.257 704  [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+20:11:49.265 712  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+20:11:49.265 712  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+20:11:49.266 713  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+20:11:49.268 715  [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+20:11:49.424 871  [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+20:11:49.565 1012 [main] WARN  org.hibernate.cfg.AnnotationBinder
+				- HHH000457: Joined inheritance hierarchy [org.banque.entity.Client] defined explicit @DiscriminatorColumn.  Legacy Hibernate behavior was to ignore the @DiscriminatorColumn.  However, as part of issue HHH-6911 we now apply the explicit @DiscriminatorColumn.  If you would prefer the legacy behavior, enable the `hibernate.discriminator.ignore_explicit_for_joined` setting (hibernate.discriminator.ignore_explicit_for_joined=true)
+20:11:50.059 1506 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@56cfe111] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+20:11:50.540 1987 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+20:11:50.546 1993 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+20:11:50.555 2002 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+20:11:50.555 2002 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+20:11:50.556 2003 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+20:11:50.556 2003 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+20:11:50.556 2003 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+20:11:50.561 2008 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+20:11:50.567 2014 [main] WARN  org.hibernate.cfg.AnnotationBinder
+				- HHH000457: Joined inheritance hierarchy [org.banque.entity.Client] defined explicit @DiscriminatorColumn.  Legacy Hibernate behavior was to ignore the @DiscriminatorColumn.  However, as part of issue HHH-6911 we now apply the explicit @DiscriminatorColumn.  If you would prefer the legacy behavior, enable the `hibernate.discriminator.ignore_explicit_for_joined` setting (hibernate.discriminator.ignore_explicit_for_joined=true)
+20:11:50.607 2054 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@43a09ce2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+20:11:51.173 2620 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+20:11:51.176 2623 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+20:11:51.184 2631 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+20:11:51.184 2631 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+20:11:51.185 2632 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+20:11:51.185 2632 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+20:11:51.185 2632 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+20:11:51.190 2637 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+20:11:51.195 2642 [main] WARN  org.hibernate.cfg.AnnotationBinder
+				- HHH000457: Joined inheritance hierarchy [org.banque.entity.Client] defined explicit @DiscriminatorColumn.  Legacy Hibernate behavior was to ignore the @DiscriminatorColumn.  However, as part of issue HHH-6911 we now apply the explicit @DiscriminatorColumn.  If you would prefer the legacy behavior, enable the `hibernate.discriminator.ignore_explicit_for_joined` setting (hibernate.discriminator.ignore_explicit_for_joined=true)
+20:11:51.224 2671 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6342ff7f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+20:11:51.681 3128 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+20:12:07.465 324  [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+20:12:07.518 377  [main] INFO  org.hibernate.Version
+				- HHH000412: Hibernate Core {5.4.2.Final}
+20:12:07.658 517  [main] INFO  o.h.annotations.common.Version
+				- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+20:12:07.857 716  [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+20:12:07.862 721  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+20:12:07.863 722  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+20:12:07.863 722  [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+20:12:07.865 724  [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+20:12:08.024 883  [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+20:12:08.166 1025 [main] WARN  org.hibernate.cfg.AnnotationBinder
+				- HHH000457: Joined inheritance hierarchy [org.banque.entity.Client] defined explicit @DiscriminatorColumn.  Legacy Hibernate behavior was to ignore the @DiscriminatorColumn.  However, as part of issue HHH-6911 we now apply the explicit @DiscriminatorColumn.  If you would prefer the legacy behavior, enable the `hibernate.discriminator.ignore_explicit_for_joined` setting (hibernate.discriminator.ignore_explicit_for_joined=true)
+20:12:08.677 1536 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@56cfe111] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+20:12:09.173 2032 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+20:12:09.182 2041 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+20:12:09.193 2052 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+20:12:09.194 2053 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+20:12:09.194 2053 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+20:12:09.194 2053 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+20:12:09.194 2053 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+20:12:09.199 2058 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+20:12:09.205 2064 [main] WARN  org.hibernate.cfg.AnnotationBinder
+				- HHH000457: Joined inheritance hierarchy [org.banque.entity.Client] defined explicit @DiscriminatorColumn.  Legacy Hibernate behavior was to ignore the @DiscriminatorColumn.  However, as part of issue HHH-6911 we now apply the explicit @DiscriminatorColumn.  If you would prefer the legacy behavior, enable the `hibernate.discriminator.ignore_explicit_for_joined` setting (hibernate.discriminator.ignore_explicit_for_joined=true)
+20:12:09.238 2097 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@43a09ce2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+20:12:09.694 2553 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+20:12:09.698 2557 [main] INFO  o.h.jpa.internal.util.LogHelper
+				- HHH000204: Processing PersistenceUnitInfo [name: pu]
+20:12:09.708 2567 [main] WARN  o.hibernate.orm.connections.pooling
+				- HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+20:12:09.708 2567 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/Proxibanque_MT_IZ?createDatabaseIfNotExist=true]
+20:12:09.709 2568 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001001: Connection properties: {user=root}
+20:12:09.709 2568 [main] INFO  o.hibernate.orm.connections.pooling
+				- HHH10001003: Autocommit mode: false
+20:12:09.709 2568 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl
+				- HHH000115: Hibernate connection pool size: 20 (min=1)
+20:12:09.713 2572 [main] INFO  org.hibernate.dialect.Dialect
+				- HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+20:12:09.718 2577 [main] WARN  org.hibernate.cfg.AnnotationBinder
+				- HHH000457: Joined inheritance hierarchy [org.banque.entity.Client] defined explicit @DiscriminatorColumn.  Legacy Hibernate behavior was to ignore the @DiscriminatorColumn.  However, as part of issue HHH-6911 we now apply the explicit @DiscriminatorColumn.  If you would prefer the legacy behavior, enable the `hibernate.discriminator.ignore_explicit_for_joined` setting (hibernate.discriminator.ignore_explicit_for_joined=true)
+20:12:09.746 2605 [main] INFO  o.hibernate.orm.connections.access
+				- HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6342ff7f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+20:12:10.249 3108 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+				- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+20:12:10.250 3109 [main] INFO  o.b.s.BanqueServiceImplementation
+				- virement effectué

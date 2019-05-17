@@ -1,0 +1,11 @@
+
+	************************************
+***** 	Pour le git:    			*****
+	************************************
+- Si vous n'avez pas encore un compte, veuillez vous enregistrer sur le site https://github.com/
+- Une fois connecté, allez vers le lien 
+https://github.com/Schtor/Proxibanque_MT_IZ
+
+- En cliquant sur le bouton en haut à droite "clone or download", copier l'adresse URL.
+- Allez vers un terminal git
+- git clone https://github.com/Schtor/Proxibanque_MT_IZ.git

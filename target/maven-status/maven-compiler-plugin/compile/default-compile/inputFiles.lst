@@ -1,10 +1,11 @@
+C:\Users\Adminl\workspace ihab\Proxibanque_MT_IZ\src\main\java\org\banque\persistence\DAOPar.java
 C:\Users\Adminl\workspace ihab\Proxibanque_MT_IZ\src\main\java\org\banque\service\BanqueServiceImplementation.java
 C:\Users\Adminl\workspace ihab\Proxibanque_MT_IZ\src\main\java\ws\rest\wservice.java
 C:\Users\Adminl\workspace ihab\Proxibanque_MT_IZ\src\main\java\org\banque\entity\CompteEpargne.java
-C:\Users\Adminl\workspace ihab\Proxibanque_MT_IZ\src\main\java\org\banque\entity\Test.java
 C:\Users\Adminl\workspace ihab\Proxibanque_MT_IZ\src\main\java\org\banque\service\ClientServiceImplementation.java
 C:\Users\Adminl\workspace ihab\Proxibanque_MT_IZ\src\main\java\org\banque\entity\CB.java
 C:\Users\Adminl\workspace ihab\Proxibanque_MT_IZ\src\main\java\org\banque\entity\CompteCourant.java
+C:\Users\Adminl\workspace ihab\Proxibanque_MT_IZ\src\main\java\org\banque\persistence\DAOCo.java
 C:\Users\Adminl\workspace ihab\Proxibanque_MT_IZ\src\main\java\org\banque\service\BanqueService.java
 C:\Users\Adminl\workspace ihab\Proxibanque_MT_IZ\src\main\java\org\banque\service\CompteService.java
 C:\Users\Adminl\workspace ihab\Proxibanque_MT_IZ\src\main\java\org\banque\entity\Compte.java
@@ -15,6 +16,7 @@ C:\Users\Adminl\workspace ihab\Proxibanque_MT_IZ\src\main\java\org\banque\persis
 C:\Users\Adminl\workspace ihab\Proxibanque_MT_IZ\src\main\java\org\banque\entity\Entreprise.java
 C:\Users\Adminl\workspace ihab\Proxibanque_MT_IZ\src\main\java\org\banque\presentation\ServletConnexion.java
 C:\Users\Adminl\workspace ihab\Proxibanque_MT_IZ\src\main\java\org\banque\entity\Client.java
+C:\Users\Adminl\workspace ihab\Proxibanque_MT_IZ\src\main\java\org\banque\persistence\DAOEnt.java
 C:\Users\Adminl\workspace ihab\Proxibanque_MT_IZ\src\main\java\org\banque\persistence\DAOEntreprise.java
 C:\Users\Adminl\workspace ihab\Proxibanque_MT_IZ\src\main\java\org\banque\service\ClientService.java
 C:\Users\Adminl\workspace ihab\Proxibanque_MT_IZ\src\main\java\org\banque\entity\Particulier.java

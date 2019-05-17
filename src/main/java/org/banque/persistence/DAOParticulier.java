@@ -21,7 +21,7 @@ import org.slf4j.LoggerFactory;
  * objets Particulier dans la base de données, et également d'y accéder pour,
  * lire, modifier, supprimer et récupérer des informations ou des objets.
  */
-public class DAOParticulier {
+public class DAOParticulier implements DAOPar {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(DAOParticulier.class);
 	EntityManagerFactory emf = Persistence.createEntityManagerFactory("pu");
@@ -34,6 +34,7 @@ public class DAOParticulier {
 	 * 
 	 * @param Client
 	 */
+	@Override
 	public void sauvegarderClient(Client p) {
 
 		EntityManager em = emf.createEntityManager();
@@ -65,6 +66,7 @@ public class DAOParticulier {
 	 * @param Long id
 	 */
 
+	@Override
 	public Particulier afficherClientParId(Long id) {
 
 		EntityManager em = emf.createEntityManager();
@@ -94,6 +96,7 @@ public class DAOParticulier {
 	 * Méthode retournant la liste de tous les Particulier dans la table clients.
 	 * 
 	 */
+	@Override
 	public List<Client> afficherTout() {
 		EntityManager em = emf.createEntityManager();
 		EntityTransaction txn = em.getTransaction();
@@ -125,6 +128,7 @@ public class DAOParticulier {
 	 * 
 	 * @param Long id, String adresse
 	 */
+	@Override
 	public void modifierAdresseClientParId(Long id, String adresse) {
 		EntityManager em = emf.createEntityManager();
 		EntityTransaction txn = em.getTransaction();
@@ -155,6 +159,7 @@ public class DAOParticulier {
 	 * 
 	 * @param Long id, int codePostal
 	 */
+	@Override
 	public void modifierCodePostalClientParId(Long id, Long codePostal) {
 		EntityManager em = emf.createEntityManager();
 		EntityTransaction txn = em.getTransaction();
@@ -186,6 +191,7 @@ public class DAOParticulier {
 	 * @param Long id, String ville
 	 */
 
+	@Override
 	public void modifierVilleClientParId(Long id, String ville) {
 		EntityManager em = emf.createEntityManager();
 		EntityTransaction txn = em.getTransaction();
@@ -217,6 +223,7 @@ public class DAOParticulier {
 	 * @param Long id, String telephone
 	 */
 
+	@Override
 	public void modifierTelephoneClientParId(Long id, String telephone) {
 		EntityManager em = emf.createEntityManager();
 		EntityTransaction txn = em.getTransaction();
@@ -248,6 +255,7 @@ public class DAOParticulier {
 	 * @param Long id, String telephone
 	 */
 
+	@Override
 	public void modifierPrenomClientParId(Long id, String prenom) {
 		EntityManager em = emf.createEntityManager();
 		EntityTransaction txn = em.getTransaction();
@@ -278,6 +286,7 @@ public class DAOParticulier {
 	 * @param Long id, String telephone
 	 */
 
+	@Override
 	public void modifierNomClientParId(Long id, String nom) {
 		EntityManager em = emf.createEntityManager();
 		EntityTransaction txn = em.getTransaction();
@@ -309,6 +318,7 @@ public class DAOParticulier {
 	 * @param Long id
 	 */
 
+	@Override
 	public void supprimerClientParId(Long id) {
 		EntityManager em = emf.createEntityManager();
 		EntityTransaction txn = em.getTransaction();

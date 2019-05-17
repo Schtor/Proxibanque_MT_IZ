@@ -21,7 +21,7 @@ import org.slf4j.LoggerFactory;
  * objets Entreprise dans la base de données, et également d'y accéder pour,
  * lire, modifier, supprimer et récupérer des informations ou des objets.
  */
-public class DAOEntreprise {
+public class DAOEntreprise implements DAOEnt {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(DAOEntreprise.class);
 	EntityManagerFactory emf = Persistence.createEntityManagerFactory("pu");
@@ -34,6 +34,7 @@ public class DAOEntreprise {
 	 * 
 	 * @param Client c
 	 */
+	@Override
 	public void sauvegarderClient(Client p) {
 		EntityManager em = emf.createEntityManager();
 		EntityTransaction txn = em.getTransaction();
@@ -64,6 +65,7 @@ public class DAOEntreprise {
 	 * @param Long id
 	 */
 
+	@Override
 	public Entreprise afficherClientParId(Long id) {
 		EntityManager em = emf.createEntityManager();
 		EntityTransaction txn = em.getTransaction();
@@ -91,6 +93,7 @@ public class DAOEntreprise {
 	 * Méthode retournant la liste de toutes les Entreprises dans la table clients.
 	 * 
 	 */
+	@Override
 	public List<Client> afficherTout() {
 		EntityManager em = emf.createEntityManager();
 		EntityTransaction txn = em.getTransaction();
@@ -123,6 +126,7 @@ public class DAOEntreprise {
 	 * 
 	 * @param Long id, String adresse
 	 */
+	@Override
 	public void modifierAdresseClientParId(Long id, String adresse) {
 		EntityManager em = emf.createEntityManager();
 		EntityTransaction txn = em.getTransaction();
@@ -153,6 +157,7 @@ public class DAOEntreprise {
 	 * 
 	 * @param Long id, int codePostal
 	 */
+	@Override
 	public void modifierCodePostalClientParId(Long id, Long codePostal) {
 
 		EntityManager em = emf.createEntityManager();
@@ -185,6 +190,7 @@ public class DAOEntreprise {
 	 * @param Long id, String ville
 	 */
 
+	@Override
 	public void modifierVilleClientParId(Long id, String ville) {
 		EntityManager em = emf.createEntityManager();
 		EntityTransaction txn = em.getTransaction();
@@ -216,6 +222,7 @@ public class DAOEntreprise {
 	 * @param Long id, String telephone
 	 */
 
+	@Override
 	public void modifierTelephoneClientParId(Long id, String telephone) {
 		EntityManager em = emf.createEntityManager();
 		EntityTransaction txn = em.getTransaction();
@@ -247,6 +254,7 @@ public class DAOEntreprise {
 	 * @param Long id, String telephone
 	 */
 
+	@Override
 	public void modifierSiretClientParId(Long id, Long siret) {
 		EntityManager em = emf.createEntityManager();
 		EntityTransaction txn = em.getTransaction();
@@ -278,6 +286,7 @@ public class DAOEntreprise {
 	 * @param Long id, String telephone
 	 */
 
+	@Override
 	public void modifierNomClientParId(Long id, String nom) {
 
 		EntityManager em = emf.createEntityManager();
@@ -309,6 +318,7 @@ public class DAOEntreprise {
 	 * @param Long id
 	 */
 
+	@Override
 	public void supprimerClientParId(Long id) {
 		EntityManager em = emf.createEntityManager();
 		EntityTransaction txn = em.getTransaction();

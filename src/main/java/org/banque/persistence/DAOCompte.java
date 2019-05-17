@@ -14,7 +14,7 @@ import org.slf4j.LoggerFactory;
  * objets Compte dans la base de données, et également d'y accéder pour,
  * lire, modifier, supprimer et récupérer des informations ou des objets.
  */
-public class DAOCompte {
+public class DAOCompte implements DAOCo {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(DAOCompte.class);
 	EntityManagerFactory emf = Persistence.createEntityManagerFactory("pu");
@@ -25,6 +25,7 @@ public class DAOCompte {
 	 * 
 	 * @param Long numerocompte
 	 */
+	@Override
 	public Compte afficherCompteParNumero(Long numerocompte) {
 
 		EntityManager em = emf.createEntityManager();

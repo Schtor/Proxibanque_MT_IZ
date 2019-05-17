@@ -21,6 +21,6 @@ public interface BanqueService {
 	 * 
 	 * @param Client client1, Client client2, Compte compte1, Compte compte2, Long somme
 	 */
-	public boolean faireVirement(Compte compte1, Compte compte2, Long somme);
+	public boolean faireVirement(Long num1, Long num2, Long somme);
 	
 }

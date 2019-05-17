@@ -1,6 +1,7 @@
 package org.banque.service;
 
 import org.banque.entity.Compte;
+import org.banque.persistence.DAOCo;
 
 /**
  * Interface CompteService joue le rôle d'intermédiaire entre 
@@ -17,4 +18,8 @@ public interface CompteService {
 	 * @param Long id
 	 */
 	public Compte trouverCompte(Long numerocompte);
+	
+
+	public void setDAOCompte(DAOCo daoco);
+		
 }

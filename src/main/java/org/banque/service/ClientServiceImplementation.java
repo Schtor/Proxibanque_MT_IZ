@@ -5,7 +5,9 @@ import java.util.List;
 
 import org.banque.entity.Client;
 import org.banque.entity.Particulier;
+import org.banque.persistence.DAOEnt;
 import org.banque.persistence.DAOEntreprise;
+import org.banque.persistence.DAOPar;
 import org.banque.persistence.DAOParticulier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -21,8 +23,8 @@ import org.slf4j.LoggerFactory;
 public class ClientServiceImplementation implements ClientService {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(ClientServiceImplementation.class);
-	DAOParticulier daop = new DAOParticulier();
-	DAOEntreprise daoe = new DAOEntreprise();
+	DAOPar daop = new DAOParticulier();
+	DAOEnt daoe = new DAOEntreprise();
 	Client c = null;
 
 	/**
@@ -200,6 +202,12 @@ public class ClientServiceImplementation implements ClientService {
 			daoe.supprimerClientParId(c.getId());
 			LOGGER.info("appel à la BD pour supprimer client entreprise");
 		}
+	}
+	public void setDAOParticulier(DAOPar daop) {
+		this.daop=daop;
+	}
+	public void setDAOEntreprise(DAOEnt daoe) {
+		this.daoe=daoe;
 	}
 
 }
