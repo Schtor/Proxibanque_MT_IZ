@@ -59,6 +59,7 @@ public class Client {
 	private String ville;
 	private String telephone;
 	private Long numeroSIRET;
+	private String password;
 
 //	Constructeur
 	public Client(String nom, String adresse, Long codePostal, String ville, String telephone) {
