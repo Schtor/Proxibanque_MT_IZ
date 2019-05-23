@@ -1,9 +1,8 @@
 package org.banque.test;
 
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertTrue;
-import static org.mockito.Mockito.verify;
-import static org.mockito.Mockito.when;
+import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.Mockito.*;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -45,7 +44,7 @@ public class BanqueServiceImplementationTest {
 
 	@Mock
 	DAOCo daoco;
-
+	
 	@Mock
 	DAOPar daop;
 
@@ -90,16 +89,15 @@ public class BanqueServiceImplementationTest {
 	 */
 	@Test
 	public void virement_Should_Proceed_If_Remains_Over_Limit() {
-//		cco1 = new CompteCourant();
-//		cco2 = new CompteCourant();
-//		cco1.setSolde(4000);
-//		cco2.setSolde(500);
-//		when(daoco.afficherCompteParNumero(1L)).thenReturn(cco1);
-//		when(daoco.afficherCompteParNumero(2L)).thenReturn(cco2);
-//		boolean result = bsi.faireVirement(1L, 2L, 500L);
-//		verify(daoco.afficherCompteParNumero(1L));
-//		verify(daoco.afficherCompteParNumero(2L));
-		boolean result = bsi.faireVirement(1616168L, 654328L, 50L);
+		cco1 = new CompteCourant();
+		cco2 = new CompteCourant();
+		cco1.setSolde(4000);
+		cco2.setSolde(500);
+		when(daoco.afficherCompteParNumero(1L)).thenReturn(cco1);
+		when(daoco.afficherCompteParNumero(2L)).thenReturn(cco2);
+		boolean result = bsi.faireVirement(1L, 2L, 500L);
+		verify(daoco.afficherCompteParNumero(1L));
+		verify(daoco.afficherCompteParNumero(2L));
 		assertTrue(result);
 	}
 	
@@ -110,16 +108,15 @@ public class BanqueServiceImplementationTest {
 	 */
 	@Test
 	public void virement_Should_Not_Proceed_If_Remains_Over_Limit() {
-//		cco1 = new CompteCourant();
-//		cco2 = new CompteCourant();
-//		cco1.setSolde(4000);
-//		cco2.setSolde(500);
-//		when(daoco.afficherCompteParNumero(1L)).thenReturn(cco1);
-//		when(daoco.afficherCompteParNumero(2L)).thenReturn(cco2);
-//		boolean result = bsi.faireVirement(1L, 2L, 500L);
-//		verify(daoco.afficherCompteParNumero(1L));
-//		verify(daoco.afficherCompteParNumero(2L));
-		boolean result = bsi.faireVirement(1616168L, 654328L, 50000L);
+		cco1 = new CompteCourant();
+		cco2 = new CompteCourant();
+		cco1.setSolde(4000);
+		cco2.setSolde(500);
+		when(daoco.afficherCompteParNumero(1L)).thenReturn(cco1);
+		when(daoco.afficherCompteParNumero(2L)).thenReturn(cco2);
+		boolean result = bsi.faireVirement(1L, 2L, 50000L);
+		verify(daoco.afficherCompteParNumero(1L));
+		verify(daoco.afficherCompteParNumero(2L));
 		assertFalse(result);
 	}
 	

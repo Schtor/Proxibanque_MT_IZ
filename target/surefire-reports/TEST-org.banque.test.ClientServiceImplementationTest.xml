@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\Adminl\workspace ihab\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf17029916117560631141.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\Adminl\workspace ihab\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1503799261007114859.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk-12\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-12/bin/server;C:/Program Files/Java/jdk-12/bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-12\bin;C:\dev\apache-maven-3.6.1-bin\apache-maven-3.6.1\bin\bin;C:\dev\apache-maven-3.6.1-bin\apache-maven-3.6.1\bin;C:\Program Files\Git\cmd;C:\Users\Adminl\AppData\Local\Microsoft\WindowsApps;;C:\dev\eclipse;;."/>
     <property name="jdk.debug" value="release"/>
@@ -42,7 +42,7 @@
     <property name="java.class.path" value="C:\dev\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.11.0.20190220-2117\jars\plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="12"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-12"/>
     <property name="user.language" value="fr"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
